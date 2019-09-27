@@ -1,2 +1,2 @@
-<img src="https://i.ibb.co/hmH5PVR/image.jpg">
+<img src="">
 <h1>YOYO</h1>
