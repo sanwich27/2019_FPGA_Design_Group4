@@ -9,10 +9,10 @@
 <h1>模擬結果圖</h1>
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw00/simulation%20messages/messages.JPG?raw=true" alt="FSM-hw0">
 <h1>波形圖</h1>
-測試檔1:
+first input data:
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw00/waveform/wave.JPG?raw=true" alt="FSM-hw0">
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw00/waveform/wave2.JPG?raw=true" alt="FSM-hw0">
-測試檔2:
+second input data:
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw00/waveform/wave3.JPG?raw=true" alt="FSM-hw0">
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw00/waveform/wave4.JPG?raw=true" alt="FSM-hw0">
 
