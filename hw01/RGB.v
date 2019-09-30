@@ -15,9 +15,10 @@ module RGB(
     input   rst ,
     output  reg  led4_b,led4_r,led4_g,led5_b,led5_r,led5_g
     );
-	reg [3:0] cstate;//?¾?œ¨??„ç????
-	reg [3:0] nstate;//ä¸‹ä??‹ç????
-    parameter s_reset=4'd0,s1_1=4'd1,s1_2=4'd2,s1_3=4'd3,s1_4=4'd4,s1_5=4'd5,s2=4'd6,s3=4'd7,s4_1=4'd8,s4_2=4'd9,s4_3=4'd10,s4_4=4'd11,s4_5=4'd12,s5=4'd13,s6=4'd14;
+	reg [3:0] cstate;//?ÂÂ¾?Å“Â¨??â€Ã§????
+	reg [3:0] nstate;//Ã¤Â¸â€¹Ã¤??â€¹Ã§????
+	reg [2:0] counter;
+    parameter s_reset=4'd0,s1=4'd1,s2=4'd2,s3=4'd3,s4=4'd4,s5=4'd5,s6=4'd6;
 	//s_reset:no light,s1:(4 red,5 green),s1:(4 red,5 yellow),s1:(4 red,5 red),s1:(4 green,5 red),s1:(4 yellow,5 red),s1:(4 red,5 red)
     always@(posedge clk)begin
         if(rst)begin
@@ -27,63 +28,30 @@ module RGB(
 			cstate<=nstate;
 		end
     end 
-    always@(*)begin
+    always@(cstate)begin
 		case(cstate)
 			s_reset:begin
+				counter=3'd0;
 				led4_b=1'b0;
 				led4_r=1'b0;
 				led4_g=1'b0;
 				led5_b=1'b0;
 				led5_r=1'b0;
 				led5_g=1'b0;
-				nstate=s1_1;
+				nstate=s1;
 			end
-			s1_1:begin//5sec to nstate
+			s1:begin//5sec to nstate
+				counter=counter+1;
                 led4_b=1'b0;
                 led4_r=1'b1;
                 led4_g=1'b0;
                 led5_b=1'b0;
                 led5_r=1'b0;
                 led5_g=1'b1;
-                nstate=s1_2;
-			end
-			s1_2:begin//5sec to nstate
-                led4_b=1'b0;
-                led4_r=1'b1;
-                led4_g=1'b0;
-                led5_b=1'b0;
-                led5_r=1'b0;
-                led5_g=1'b1;
-                nstate=s1_3;
-			end
-			s1_3:begin//5sec to nstate
-                led4_b=1'b0;
-                led4_r=1'b1;
-                led4_g=1'b0;
-                led5_b=1'b0;
-                led5_r=1'b0;
-                led5_g=1'b1;
-                nstate=s1_4;
-			end
-			s1_4:begin//5sec to nstate
-                led4_b=1'b0;
-                led4_r=1'b1;
-                led4_g=1'b0;
-                led5_b=1'b0;
-                led5_r=1'b0;
-                led5_g=1'b1;
-                nstate=s1_5;
-			end
-			s1_5:begin//5sec to nstate
-                led4_b=1'b0;
-                led4_r=1'b1;
-                led4_g=1'b0;
-                led5_b=1'b0;
-                led5_r=1'b0;
-                led5_g=1'b1;
-                nstate=s2;
+				nstate=(counter<3'd5)?s1:s2;
 			end
 			s2:begin//1sec to nstate
+				counter=3'd0;
 				led4_b=1'b0;
 				led4_r=1'b1;
 				led4_g=1'b0;
@@ -111,52 +79,18 @@ module RGB(
 				else
 					nstate=s3;*/
 			end
-			s4_1:begin//5sec to nstate
+			s4:begin//5sec to nstate
+				counter=counter+1;
 				led4_b=1'b0;
 				led4_r=1'b0;
 				led4_g=1'b1;
 				led5_b=1'b0;
 				led5_r=1'b1;
 				led5_g=1'b0;
-				nstate=s4_2;
-			end
-			s4_2:begin//5sec to nstate
-				led4_b=1'b0;
-				led4_r=1'b0;
-				led4_g=1'b1;
-				led5_b=1'b0;
-				led5_r=1'b1;
-				led5_g=1'b0;
-				nstate=s4_3;
-			end
-			s4_3:begin//5sec to nstate
-				led4_b=1'b0;
-				led4_r=1'b0;
-				led4_g=1'b1;
-				led5_b=1'b0;
-				led5_r=1'b1;
-				led5_g=1'b0;
-				nstate=s4_4;
-			end
-			s4_4:begin//5sec to nstate
-				led4_b=1'b0;
-				led4_r=1'b0;
-				led4_g=1'b1;
-				led5_b=1'b0;
-				led5_r=1'b1;
-				led5_g=1'b0;
-				nstate=s4_5;
-			end
-			s4_5:begin//5sec to nstate
-				led4_b=1'b0;
-				led4_r=1'b0;
-				led4_g=1'b1;
-				led5_b=1'b0;
-				led5_r=1'b1;
-				led5_g=1'b0;
-				nstate=s5;
+				nstate=(counter<3'd5)?s4:s5;
 			end
 			s5:begin//1sec to nstate
+				counter=3'd0;
 				led4_b=1'b0;
 				led4_r=1'b1;
 				led4_g=1'b1;
