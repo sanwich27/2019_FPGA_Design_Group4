@@ -36,7 +36,7 @@ Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
 <h1>Bonus2(系統設計圖)</h1>
 <h1>problems</h1>
 1.為什麼要加入 blinky.xdc 這個 Constraint ?<br>
-* divider.v是一個除頻器，cnt的值在clk正源觸發時會+1，每經過62500000個clk會歸0，而新的clk_div在cnt<(31250000-1)為0，大於等於(31250000-1)為1，
+*  divider.v是一個除頻器，cnt的值在clk正源觸發時會+1，每經過62500000個clk會歸0，而新的clk_div在cnt<(31250000-1)為0，大於等於(31250000-1)為1，
   這樣等效於前31250000個clk時，clk_div為0，後31250000個clk時，clk_div為1，相當時把頻率除了62500000倍。<br>
 2.承上題，若沒有加入這個 Constraint，可能會發生什麼事?
 
