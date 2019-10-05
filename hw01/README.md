@@ -1,13 +1,10 @@
 # 成員名單
 李奕勳、劉旭祐、陳哲均
 # 問題描述
-使用兩顆 RGB LED ，分別代表一個路口的兩個燈號
-
 作業需求：
-
-兩個路口的黃燈長(t1)皆為 1 sec ，綠燈長(t2)皆為 5 sec ，兩者皆為紅燈的時間長(t3)為 1 sec (1 sec 不必是實際準確的一秒，可直接使用 Lab 提供的除頻器
-
-一個路口為黃燈或是綠燈時，另一個一定為紅燈
+使用兩顆 RGB LED ，分別代表一個路口的兩個燈號
+兩個燈號的黃燈長(t1)皆為 1 sec ，綠燈長(t2)皆為 5 sec ，兩者皆為紅燈的時間長(t3)為 1 sec (1 sec 不必是實際準確的一秒，可直接使用 Lab 提供的除頻器
+一個燈號為黃燈或是綠燈時，另一個一定為紅燈
 # Finite State Machine
 ![fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA.jpg)
 # 系統設計圖
@@ -30,12 +27,14 @@
 * Switch 為 01 時 ，使用 Buttons 調整黃燈長(t1)。
 * Switch 為 10 時 ，使用 Buttons 調整綠燈長(t2)。
 * Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
-
 * 用 4-bit LED 以二進位顯示秒數。
-## bonus block design
-<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png"></img>
-## Bonus2(系統設計圖)
+## finite state machine
 ![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_fsm.png?raw=true)
+## Bonus2(系統設計圖)
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png"></img>
+# 模擬結果
+* [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM)
+* [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)
 ## problems
 1.為什麼要加入 blinky.xdc 這個 Constraint ?
 
