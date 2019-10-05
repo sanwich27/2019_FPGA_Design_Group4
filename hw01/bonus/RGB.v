@@ -2,12 +2,9 @@ module RGB(
     input   clk ,
     input   rst ,
     input  [1:0] sw ,
-    //input  [3:0] btn ,
     input   control_r_in,
     input   control_y_in,
     input   control_g_in,
-    //input   first_in,
-    //output  reg  [3:0] led,
     output  reg  led4_b,led4_r,led4_g,led5_b,led5_r,led5_g,
     output  reg  [3:0] led
     );
@@ -31,7 +28,6 @@ always@(posedge clk)begin
 	else begin
 		if(sw==2'b00)begin
                		cstate<=nstate;
-               		//first<=first_in;
 			first<=0;
 		end
 		else begin			
