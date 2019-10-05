@@ -15,7 +15,7 @@
 
 
 # 模擬結果
-[123](https://www.youtube.com/watch?v=LJ7O0OfI62Q/"影片")
+[影片](https://www.youtube.com/watch?v=LJ7O0OfI62Q)
 <h1>波形圖</h1>
 <h1>心得</h1>
 
