@@ -1,15 +1,3 @@
-/////////////////////////////////////////////////////////////////
-//  File Name : LED.v                                         //
-//                                                             //
-//  Purpose : use switches to control LEDs                     //
-//                                                             //
-//  Creation Date : 2019/07/18                                 //
-//                                                             //
-//  Last Modified : 2019/07/18                                 //
-//                                                             //
-//  Auther : Wei-Cheng Chen                                      //
-/////////////////////////////////////////////////////////////////
-
 module RGB(
     input   clk ,
     input   rst ,
@@ -37,8 +25,18 @@ module RGB(
 			counter_g<=3'd4;
 			end
 		else begin
-            if(sw==2'b00)
-                cstate<=nstate;
+			if(sw==2'b00)begin
+               			cstate<=nstate;
+				if(control_y_in==1)begin
+					counter_y<=counter_y+1;
+				end
+				if(control_r_in==1)begin
+					counter_r<=counter_r+1;
+				end
+				if(control_g_in==1)begin
+					counter_g<=counter_g+1;
+				end
+			end
             else 
                 cstate<=s_reset;
 		end
