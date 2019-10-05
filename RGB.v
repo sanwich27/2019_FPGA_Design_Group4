@@ -2,10 +2,11 @@ module RGB(
     input   clk ,
     input   rst ,
     input  [1:0] sw ,
-    input  [3:0] btn ,
+    //input  [3:0] btn ,
     input   control_r_in,
     input   control_y_in,
     input   control_g_in,
+    input   first_in;
     //output  reg  [3:0] led,
     output  reg  led4_b,led4_r,led4_g,led5_b,led5_r,led5_g,
     output  reg  [3:0] led
@@ -14,6 +15,7 @@ module RGB(
 	reg [3:0] nstate;
 	reg [2:0] counter;
 	reg [3:0] counter_g,counter_y,counter_r; //add the period of the light at most 3 seconds
+	reg first;
 	reg reset;
     parameter s_reset=4'd0,s1=4'd1,s2=4'd2,s3=4'd3,s4=4'd4,s5=4'd5,s6=4'd6;
 	//s_reset:no light,s1:(4 red,5 green),s1:(4 red,5 yellow),s1:(4 red,5 red),s1:(4 green,5 red),s1:(4 yellow,5 red),s1:(4 red,5 red)
@@ -25,20 +27,24 @@ module RGB(
 			counter_g<=3'd4;
 			end
 		else begin
-			if(sw==2'b00)begin
+			if(sw==2'b00)
                			cstate<=nstate;
-				if(control_y_in==1)begin
+			else begin
+				first<=first_in;
+				cstate<=s_reset;
+				if(control_y_in==1&&first==0)begin
 					counter_y<=counter_y+1;
+					first<=1;
 				end
-				if(control_r_in==1)begin
+				if(control_r_in==1&&first==0)begin
 					counter_r<=counter_r+1;
+					first<=1;
 				end
-				if(control_g_in==1)begin
+				if(control_g_in==1&&first==0)begin
 					counter_g<=counter_g+1;
+					first<=1;
 				end
 			end
-            else 
-                cstate<=s_reset;
 		end
     end 
     /////how to control
@@ -97,6 +103,25 @@ module RGB(
         endcase
     end*/
     //////
+	always@(*)begin
+		case(sw)
+	   2'b00:begin
+                led=4'b0;
+            end
+            2'b01:begin
+                led=counter_y+4'b1;
+       
+            end
+            2'b10:begin
+                led=counter_g+4'b1;
+              
+              
+            end
+            2'b11:begin
+		led=counter_r+4'b1;
+            end
+		endcase
+	end
     always@(*)begin
 		case(cstate)
 			s_reset:begin
