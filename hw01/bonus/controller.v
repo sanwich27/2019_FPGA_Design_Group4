@@ -14,24 +14,24 @@ always@(*)begin
 		end
 		2'd1:begin
 			//first_out=1;
-			//if(btn[1]==1)
+			if(btn[1]==1)
 				control_y_out=1;
-			/*else
-			;*/
+			else
+			;
 		end
 		2'd2:begin
 			//first_out=1;
-			//if(btn[1]==1)
+			if(btn[1]==1)
 				control_g_out=1;
-			/*else
-			;*/
+			else
+			;
 		end
 		2'd3:begin
 			//first_out=1;
-			//if(btn[1]==1)
+			if(btn[1]==1)
 				control_r_out=1;
-			/*else
-			;*/
+			else
+			;
 				
 		end
 		default:begin
