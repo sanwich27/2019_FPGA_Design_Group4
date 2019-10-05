@@ -9,7 +9,7 @@
 
 一個路口為黃燈或是綠燈時，另一個一定為紅燈
 <h1>Finite State Machine</h1>
-<img src="https://i.ibb.co/b69PZnY/FPGA.jpg" alt="FPGA" border="0">
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/FPGA.jpg?raw=true">
 <h1>模擬結果圖</h1>
 <h1>波形圖</h1>
 <h1>Bonus</h1>
