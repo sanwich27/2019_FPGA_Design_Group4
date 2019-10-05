@@ -15,11 +15,11 @@ module RGB(
     input   rst ,
     output  reg  led4_b,led4_r,led4_g,led5_b,led5_r,led5_g
     );
-	reg [3:0] cstate;//??Â???“Â????Ã?????
-	reg [3:0] nstate;//Ã¤Â¸?¹Ã????¹Ã?????
+	reg [3:0] cstate;//??ÂÃ‚???â€œÃ‚????Å¾Ãƒ?????
+	reg [3:0] nstate;//ÃƒÂ¤Ã‚Â¸?Â¹Ãƒ????Â¹Ãƒ?????
 	reg [2:0] counter;
     parameter s_reset=4'd0,s1=4'd1,s2=4'd2,s3=4'd3,s4=4'd4,s5=4'd5,s6=4'd6;
-	//s_reset:no light,s1:(4 red,5 green),s1:(4 red,5 yellow),s1:(4 red,5 red),s1:(4 green,5 red),s1:(4 yellow,5 red),s1:(4 red,5 red)
+//s_reset:no light,s1:(4 red,5 green),s2:(4 red,5 yellow),s3:(4 red,5 red),s4:(4 green,5 green),s5:(4 yellow,5 red),s6:(4 red,5 red)
     always@(posedge clk)begin
         if(rst)begin
 			cstate<=s_reset;
