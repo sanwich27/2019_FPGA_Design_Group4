@@ -32,7 +32,7 @@ Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
 <h1>problems</h1>
 1.為什麼要加入 blinky.xdc 這個 Constraint ?<br>
   divider.v是一個除頻器，cnt的值在clk正源觸發時會+1，每經過62500000個clk會歸0，而新的clk_div在cnt<(31250000-1)為0，大於等於(31250000-1)為1，
-  這樣等效於前31250000個clk時，clk_div為0，後31250000個clk時，clk_div為1，相當時把頻率除了31250000倍。<br>
+  這樣等效於前31250000個clk時，clk_div為0，後31250000個clk時，clk_div為1，相當時把頻率除了62500000倍。<br>
 2.承上題，若沒有加入這個 Constraint，可能會發生什麼事?
 <h1>feedback</h1>
 1.我們一開始在給RGB訊號時，用conbinational來給值，但因為訊號會有先後順序，所以結果跟我們預期的不一樣，後來改sequential的作法，就改善了!
