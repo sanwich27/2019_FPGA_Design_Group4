@@ -11,6 +11,7 @@
 <h1>Finite State Machine</h1>
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/FPGA.jpg?raw=true">
 <h1>模擬結果圖</h1>
+![紅綠燈影片](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/IMG_3310.MOV?raw=true)
 <h1>波形圖</h1>
 <h1>心得</h1>
 1.我們一開始在給RGB訊號時，用conbinational來給值，但因為訊號會有先後順序，所以結果跟我們預期的不一樣，後來改sequential的作法，就改善了!
