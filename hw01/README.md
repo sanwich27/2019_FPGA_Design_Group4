@@ -13,10 +13,6 @@
 ## 模擬結果
 [影片](https://www.youtube.com/watch?v=LJ7O0OfI62Q)
 
-## 心得
-* 我們一開始在給RGB訊號時，用conbinational來給值，但因為訊號會有先後順序，所以結果跟我們預期的不一樣，後來改sequential的作法，就改善了!
-
-
 # Bonus
 ## 問題描述
 
@@ -35,6 +31,7 @@
 # 模擬結果
 * [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM)
 * [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)
+*** 備註:影片中的reset指的是將first歸零
 ## problems
 1.為什麼要加入 blinky.xdc 這個 Constraint ?
 
@@ -43,5 +40,7 @@
   
 2.承上題，若沒有加入這個 Constraint，可能會發生什麼事?
 
+## 心得
+* 我們一開始在給RGB訊號時，用conbinational來給值，但因為訊號會有先後順序，所以結果跟我們預期的不一樣，後來改sequential的作法，就改善了!
 
 
