@@ -9,7 +9,7 @@
 
 一個路口為黃燈或是綠燈時，另一個一定為紅燈
 # Finite State Machine
-!(https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA.jpg)
+![fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA.jpg)
 <h2>block design</h2>
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true">
 
