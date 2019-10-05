@@ -10,12 +10,12 @@
 一個路口為黃燈或是綠燈時，另一個一定為紅燈
 # Finite State Machine
 ![fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA.jpg)
-<h2>block design</h2>
+## 系統設計圖
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true">
 
 
-# 模擬結果圖
-<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/IMG_3310.MOV?raw=true">
+# 模擬結果
+[123](https://www.youtube.com/watch?v=LJ7O0OfI62Q "影片")
 <h1>波形圖</h1>
 <h1>心得</h1>
 
