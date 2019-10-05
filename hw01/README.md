@@ -7,8 +7,6 @@
 * 一個燈號為黃燈或是綠燈時，另一個一定為紅燈
 ## Finite State Machine
 ![fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA.jpg)
-## 系統設計圖
-<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true">
 
 ## 模擬結果
 [影片](https://www.youtube.com/watch?v=LJ7O0OfI62Q)
@@ -27,10 +25,13 @@
 ## finite state machine
 ![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_fsm.png?raw=true)
 ## Bonus2(系統設計圖)
+#### 基本
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true">
+#### Bonus
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png"></img>
 # 模擬結果
 * [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM)
-* [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)
+* [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)       
 *** 備註:影片中的reset指的是將first歸零
 ## problems
 1.為什麼要加入 blinky.xdc 這個 Constraint ?
