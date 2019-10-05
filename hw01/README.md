@@ -23,12 +23,13 @@
 * Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
 * 用 4-bit LED 以二進位顯示秒數。
 ## finite state machine
-![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_fsm.png?raw=true)
+![fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_fsm.png?raw=true)
 ## Bonus2(系統設計圖)
 #### 基本 
-<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true"> 
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true) 
 #### Bonus  
-<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png"></img> 
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png) 
+
 # 模擬結果  
 * [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM) 
 * [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)       
