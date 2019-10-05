@@ -1,4 +1,4 @@
-<h1>成員名單</h1>
+ㄅ<h1>成員名單</h1>
 李奕勳、劉旭祐、陳哲均
 <h1>問題描述</h1>
 使用兩顆 RGB LED ，分別代表一個路口的兩個燈號
@@ -12,6 +12,26 @@
 <img src="https://i.ibb.co/b69PZnY/FPGA.jpg" alt="FPGA" border="0">
 <h1>模擬結果圖</h1>
 <h1>波形圖</h1>
+<h1>Bonus</h1>
+<h1>問題描述</h1>
+作業說明
+加入 Switches 和 Buttons 來調整 Program 1 的三種時間長。
+
+作業需求：
+
+Switch 為 00 時 ，紅綠燈正常運作。
+
+Switch 為 01 時 ，使用 Buttons 調整黃燈長(t1)。
+
+Switch 為 10 時 ，使用 Buttons 調整綠燈長(t2)。
+
+Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
+
+用 4-bit LED 以二進位顯示秒數。
+<h1>Bonus2(系統設計圖)</h1>
+<h1>problems</h1>
+1.為什麼要加入 blinky.xdc 這個 Constraint ?
+2.承上題，若沒有加入這個 Constraint，可能會發生什麼事?
 
 
 
