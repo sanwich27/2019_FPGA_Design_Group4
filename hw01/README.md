@@ -1,4 +1,4 @@
-ㄅ<h1>成員名單</h1>
+<h1>成員名單</h1>
 李奕勳、劉旭祐、陳哲均
 <h1>問題描述</h1>
 使用兩顆 RGB LED ，分別代表一個路口的兩個燈號
@@ -30,7 +30,7 @@ Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
 用 4-bit LED 以二進位顯示秒數。
 <h1>Bonus2(系統設計圖)</h1>
 <h1>problems</h1>
-1.為什麼要加入 blinky.xdc 這個 Constraint ?
+1.為什麼要加入 blinky.xdc 這個 Constraint ?<br>
 2.承上題，若沒有加入這個 Constraint，可能會發生什麼事?
 
 
