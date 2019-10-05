@@ -10,36 +10,33 @@
 一個路口為黃燈或是綠燈時，另一個一定為紅燈
 # Finite State Machine
 ![fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA.jpg)
-## 系統設計圖
+# 系統設計圖
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true">
-
 
 # 模擬結果
 [影片](https://www.youtube.com/watch?v=LJ7O0OfI62Q)
-<h1>波形圖</h1>
-<h1>心得</h1>
 
+# 心得
 * 我們一開始在給RGB訊號時，用conbinational來給值，但因為訊號會有先後順序，所以結果跟我們預期的不一樣，後來改sequential的作法，就改善了!
-<h1>Bonus</h1>
-<h1>問題描述</h1>
-作業說明
-加入 Switches 和 Buttons 來調整 Program 1 的三種時間長。
+
+# Bonus
+## 問題描述
+
+加入 Switches 和 Buttons 來調整紅綠燈的三種時間長。
 
 作業需求：
 
-Switch 為 00 時 ，紅綠燈正常運作。
+* Switch 為 00 時 ，紅綠燈正常運作。
+* Switch 為 01 時 ，使用 Buttons 調整黃燈長(t1)。
+* Switch 為 10 時 ，使用 Buttons 調整綠燈長(t2)。
+* Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
 
-Switch 為 01 時 ，使用 Buttons 調整黃燈長(t1)。
-
-Switch 為 10 時 ，使用 Buttons 調整綠燈長(t2)。
-
-Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
-
-用 4-bit LED 以二進位顯示秒數。
-<h2>bonus block design</h2>
+* 用 4-bit LED 以二進位顯示秒數。
+## bonus block design
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png"></img>
-<h1>Bonus2(系統設計圖)</h1>
-<h1>problems</h1>
+## Bonus2(系統設計圖)
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_fsm.png?raw=true)
+## problems
 1.為什麼要加入 blinky.xdc 這個 Constraint ?
 
 * divider.v是一個除頻器，cnt的值在clk正緣觸發時會+1，每經過62500000個clk會歸零，而新的clk_div在cnt<(31250000-1)為0，cnt>=(31250000-1)為1，
