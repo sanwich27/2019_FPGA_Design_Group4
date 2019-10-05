@@ -34,9 +34,10 @@ Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
 <h2>bonus block design</h2>
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/bonus/bonus_block_design.png"></img>
 <h2>結果</h2>
-Switch 為 00 時 ，紅綠燈能正常運作，但當Switch為01,10,11時，無法使用Buttons調整時間長短 = (
+1.Switch 為 00 時 ，紅綠燈能正常運作，但當Switch為01,10,11時，無法使用Buttons調整時間長短 = (
 
-能夠使用4-bit LED 以二進位顯示秒數
+2.能夠使用4-bit LED 以二進位顯示秒數
+<h2>檢討</h2>
 <h1>Bonus2(系統設計圖)</h1>
 <h1>problems</h1>
 1.為什麼要加入 blinky.xdc 這個 Constraint ?<br>
