@@ -15,6 +15,9 @@ module RGB(
     input   rst ,
     input  [1:0] sw ,
     input  [3:0] btn ,
+    input   control_r_in,
+    input   control_y_in,
+    input   control_g_in,
     //output  reg  [3:0] led,
     output  reg  led4_b,led4_r,led4_g,led5_b,led5_r,led5_g,
     output  reg  [3:0] led
@@ -41,7 +44,7 @@ module RGB(
 		end
     end 
     /////how to control
-    always@(posedge clk)begin
+    /*always@(posedge clk)begin
         case(sw)
             2'b00:begin
                 led<=4'b0;
@@ -60,7 +63,7 @@ module RGB(
                     counter_y=3'd3;
                  else
                         ;  */
-            end
+          /*  end
             2'b10:begin
                 led<=counter_g+4'b1;
                /* if(first==0)begin
@@ -76,7 +79,7 @@ module RGB(
                  else
                         ;  */
                 
-            end
+           /* end
             2'b11:begin
                 led<=counter_r+4'b1;
                /* if(first==0)begin
@@ -91,10 +94,10 @@ module RGB(
                     counter_r=3'd3;
                  else
                         ;  */
-            end
+    /*        end
                 
         endcase
-    end
+    end*/
     //////
     always@(*)begin
 		case(cstate)
