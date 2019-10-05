@@ -38,6 +38,9 @@ Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
 
 2.能夠使用4-bit LED 以二進位顯示秒數
 <h2>檢討</h2>
+失敗的原因可能有....
+
+1.不熟悉button的運作模式
 <h1>Bonus2(系統設計圖)</h1>
 <h1>problems</h1>
 1.為什麼要加入 blinky.xdc 這個 Constraint ?<br>
