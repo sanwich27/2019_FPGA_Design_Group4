@@ -3,9 +3,9 @@ module RGB(
     input   rst ,
     output  reg  led4_b,led4_r,led4_g,led5_b,led5_r,led5_g
     );
-	reg [3:0] cstate;
-	reg [3:0] nstate;
-	reg [2:0] counter; // To control the  period of the green light  
+    reg [3:0] cstate;
+    reg [3:0] nstate;
+    reg [2:0] counter; // To control the  period of the green light  
     parameter s_reset=4'd0,s1=4'd1,s2=4'd2,s3=4'd3,s4=4'd4,s5=4'd5,s6=4'd6;
 	//s_reset:no light ,s1:(4 red,5 green) ,s2:(4 red,5 yellow) ,s3:(4 red,5 red) ,s4:(4 green,5 red) ,s5:(4 yellow,5 red) ,s6:(4 red,5 red)
     always@(posedge clk)begin
@@ -55,10 +55,10 @@ module RGB(
 			end
 			s1:begin //5sec to nstate
 				counter<=counter+3'd1;
-                led4_r<=1'b1;
-                led4_g<=1'b0;
-                led5_r<=1'b0;
-                led5_g<=1'b1;
+                 		led4_r<=1'b1;
+                		led4_g<=1'b0;
+                		led5_r<=1'b0;
+                		led5_g<=1'b1;
 			end
 			s2:begin //1sec to nstate
 				counter<=3'd0;
