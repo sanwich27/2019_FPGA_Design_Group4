@@ -12,7 +12,6 @@ reg [3:0] cstate;
 reg [3:0] nstate;
 reg [2:0] counter;
 reg [3:0] counter_g,counter_y,counter_r; //add the period of the light at most 3 seconds
-reg control_r,control_y,control_g;
 reg first;
 reg reset;
 parameter s_reset=4'd0,s1=4'd1,s2=4'd2,s3=4'd3,s4=4'd4,s5=4'd5,s6=4'd6;
@@ -32,19 +31,19 @@ always@(posedge clk)begin
 		end
 		else begin			
 			cstate<=s_reset;	
-			if(control_y==1&&first==0)begin
+			if(control_y_in==1&&first==0)begin
 				counter_y<=counter_y+1;
 				first<=1;
 			end
 			else
 				counter_y<=counter_y;
-			if(control_r==1&&first==0)begin
+			if(control_r_in==1&&first==0)begin
 				counter_r<=counter_r+1;
 				first<=1;
 			end
 			else
 				counter_r<=counter_r;
-			if(control_g==1&&first==0)begin
+			if(control_g_in==1&&first==0)begin
 				counter_g<=counter_g+1;
 				first<=1;
 			end
