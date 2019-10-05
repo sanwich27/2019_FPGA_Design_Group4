@@ -2,20 +2,21 @@ module RGB(
     input   clk ,
     input   rst ,
     input  [1:0] sw ,
-    input   control_r_in,
+    input   control_r_in, //input by controller.v, recording which light we are changing now.
     input   control_y_in,
     input   control_g_in,
     output  reg  led4_b,led4_r,led4_g,led5_b,led5_r,led5_g,
-    output  reg  [3:0] led 
+    output  reg  [3:0] led //record the period of the lights when you are adjusting (in switch=01,10,11)
     );
 reg [3:0] cstate;
 reg [3:0] nstate;
-reg [3:0] counter;
-reg [3:0] counter_g,counter_y,counter_r; //add the period of the light at most 3 seconds
-reg first;
-reg reset;
+reg [3:0] counter;//as a timer.it will keep plus one until time to change state
+reg [3:0] counter_g,counter_y,counter_r; //control the period of the light.when counter=counter_g,r,y ,change to the next state.
+reg first; //To make the peroid of the lights only plus one at a time(without this, the period will plus continuously with the clk)				
+reg reset; //to set counter to 0 so that next state can use 
 parameter s_reset=4'd0,s1=4'd1,s2=4'd2,s3=4'd3,s4=4'd4,s5=4'd5,s6=4'd6;
 //s_reset:no light,s1:(4 red,5 green),s2:(4 red,5 yellow),s3:(4 red,5 red),s4:(4 green,5 red),s5:(4 yellow,5 red),s6:(4 red,5 red)
+	
 always@(posedge clk)begin
 	if(rst)begin
 		cstate<=s_reset;
@@ -31,9 +32,9 @@ always@(posedge clk)begin
 		end
 		else begin			
 			cstate<=s_reset;	
-			if(control_y_in==1&&first==0)begin
+			if(control_y_in==1&&first==0)begin 
 				counter_y<=counter_y+1;
-				first<=1;
+				first<=1; //reset to 0 when switch is 00
 			end
 			else
 				counter_y<=counter_y;
@@ -55,10 +56,10 @@ end
 always@(*)begin
 	case(sw)
 		2'b00:begin
-        		led=4'b0;
+        		led=4'b0; 
         	end
             	2'b01:begin
-                	led=counter_y+4'b1;
+			led=counter_y+4'b1; //counter_y==0 means period of one second, so led should display counter_y+1 to display the actual period.
             	end
             	2'b10:begin
                	 	led=counter_g+4'b1;
