@@ -32,6 +32,7 @@ Switch 為 11 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
 <h1>problems</h1>
 1.為什麼要加入 blinky.xdc 這個 Constraint ?<br>
 2.承上題，若沒有加入這個 Constraint，可能會發生什麼事?
-
+<h1>feedback</h1>
+我們一開始在給RGB訊號時，用conbinational來給值，但因為訊號會有先後順序，所以結果跟我們預期的不一樣，後來改sequential的作法，就改善了!
 
 
