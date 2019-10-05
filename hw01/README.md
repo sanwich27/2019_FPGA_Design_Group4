@@ -33,7 +33,7 @@
 # 模擬結果  
 * [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM) 
 * [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)       
-** 備註:影片中的reset指的是將first歸零 
+  > 備註:影片中的reset指的是將first歸零 
 ## problems
 1.為什麼要加入 blinky.xdc 這個 Constraint ?
 
