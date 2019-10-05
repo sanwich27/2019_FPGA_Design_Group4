@@ -1,6 +1,6 @@
 # 成員名單
 李奕勳、劉旭祐、陳哲均
-<h1>問題描述</h1>
+# 問題描述
 使用兩顆 RGB LED ，分別代表一個路口的兩個燈號
 
 作業需求：
@@ -8,9 +8,9 @@
 兩個路口的黃燈長(t1)皆為 1 sec ，綠燈長(t2)皆為 5 sec ，兩者皆為紅燈的時間長(t3)為 1 sec (1 sec 不必是實際準確的一秒，可直接使用 Lab 提供的除頻器
 
 一個路口為黃燈或是綠燈時，另一個一定為紅燈
-<h1>Finite State Machine</h1>
+# Finite State Machine
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/FPGA.jpg?raw=true">
-<h1>模擬結果圖</h1>
+# 模擬結果圖
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/IMG_3310.MOV?raw=true">
 <h1>波形圖</h1>
 <h1>心得</h1>
