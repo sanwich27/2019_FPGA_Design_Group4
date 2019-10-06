@@ -33,12 +33,11 @@
 * 用sw控制想調整的燈號
 
   > 2'b00:reset   2'b01:yellow   2'b10:green   2'b11:red
-# 模擬結果  
-* [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM) 
-* [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)  
-
-  > 備註:影片中的reset指的是將first歸零 
   
+* 用btn[1]來增加秒數
+
+* LED以二進位顯示秒數
+
 * 測試注意事項
 
   * sw切回2'b00需要足夠時間讓他reset
@@ -46,6 +45,12 @@
   * button需要長按(大約0.5秒)
   
   * 每次只能增加1秒，若想要繼續增加，需要先將sw切回2'b00，再切到想調整的燈號
+# 模擬結果  
+* [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM) 
+* [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)  
+
+  > 備註:影片中的reset指的是將first歸零 
+  
 ## problems
 1.為什麼要加入 blinky.xdc 這個 Constraint ?
 
