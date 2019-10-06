@@ -7,7 +7,7 @@ module RGB(
     reg [3:0] nstate;
     reg [2:0] counter; // To control the  period of the green light  
     parameter s_reset=4'd0,s1=4'd1,s2=4'd2,s3=4'd3,s4=4'd4,s5=4'd5,s6=4'd6;
-	//s_reset:no light ,s1:(4 red,5 green) ,s2:(4 red,5 yellow) ,s3:(4 red,5 red) ,s4:(4 green,5 red) ,s5:(4 yellow,5 red) ,s6:(4 red,5 red)
+//s_reset:no light ,s1:(4 red,5 green) ,s2:(4 red,5 yellow) ,s3:(4 red,5 red) ,s4:(4 green,5 red) ,s5:(4 yellow,5 red) ,s6:(4 red,5 red)
     always@(posedge clk)begin
         if(rst)begin
 			cstate<=s_reset;
