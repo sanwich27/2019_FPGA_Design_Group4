@@ -48,7 +48,7 @@
   * 每次只能增加1秒，若想要繼續增加，需要先將sw切回2'b00，再切到想調整的燈號
 # 模擬結果  
 * [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM) 
-* [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)  
+* [注意事項(reset時間太短)](https://www.youtube.com/watch?v=XrT-ytpLWuw)  
 
   > 備註:影片中的reset指的是將first歸零 
 
