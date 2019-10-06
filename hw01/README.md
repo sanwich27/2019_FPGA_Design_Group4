@@ -33,8 +33,11 @@
 * 用sw控制想調整的燈號
 
   > 2'b00:reset
+  
   > 2'b01:yellow
+  
   > 2'b10:green
+  
   > 2'b11:red
 # 模擬結果  
 * [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM) 
