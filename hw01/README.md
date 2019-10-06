@@ -24,11 +24,7 @@
 * 用 4-bit LED 以二進位顯示秒數。
 ## finite state machine
 ![fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_fsm.png?raw=true)
-## Bonus2(系統設計圖)
-#### 基本 
-![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true) 
-#### Bonus  
-![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png) 
+
 # 操作方式
 * 用sw控制想調整的燈號
 
@@ -51,6 +47,12 @@
 
   > 備註:影片中的reset指的是將first歸零 
   
+## Bonus2(系統設計圖)
+#### 基本 
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true) 
+#### Bonus  
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png) 
+
 ## problems
 1.為什麼要加入 blinky.xdc 這個 Constraint ?
 
