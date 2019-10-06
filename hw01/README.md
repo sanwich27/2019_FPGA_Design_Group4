@@ -48,7 +48,9 @@
 * [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)  
 
   > 備註:影片中的reset指的是將first歸零 
-  
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ## Bonus2(系統設計圖)
 #### 基本 
 ![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true) 
