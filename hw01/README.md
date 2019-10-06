@@ -29,7 +29,10 @@
 ![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01/images/FPGA2.jpg?raw=true) 
 #### Bonus  
 ![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw01_bonus/images/bonus_block_design.png) 
+# 操作方式
+* 用sw控制想調整的燈號
 
+  > 2'b00:reset,2'b01:yellow,2'b10:green,2'b11:red
 # 模擬結果  
 * [影片](https://www.youtube.com/watch?v=-Ko9CB8ECJM) 
 * [注意事項](https://www.youtube.com/watch?v=XrT-ytpLWuw)  
