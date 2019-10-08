@@ -21,5 +21,13 @@ always@(*)begin
 		default:nstate=s_reset;
 	endcase
 end
+always@(posedge clk)begin
+	case(cstate)
+		s_reset:led_out<=8'd0;
+		s_plus:led_out<=led_out+8'd1;
+		s_minus:led_out<=led_out-8'd1;
+		default:;
+	endcase
+end
 endmodule
 
