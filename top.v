@@ -4,7 +4,7 @@ module top(
     output  [3:0] led
     );
     
-    wire led_signal;
+    wire [7:0] led_signal;
     
   led_pwm a(
       .clk (clk),
