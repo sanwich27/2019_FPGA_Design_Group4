@@ -1,4 +1,4 @@
-module	RGB_LED(
+module	LED(
 	input			clk,		//100MHz
 	input			rst,
 	input	[7:0]		led_in,
