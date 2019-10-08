@@ -8,8 +8,10 @@ module PWM_Decoder (
 );
   reg [3:0] cstate;
   reg [3:0] nstate;
+  reg [25:0] cnt;
+  reg clk_div;
   parameter red=3'd0,orange=3'd1,yellow=3'd2,green=3'd3,blue=3'd4,pinying=3'd5,purple=3'd6,s_reset=3'd7
-  always@(posedge clk)begin
+  always@(posedge clk_div)begin
 	if(rst)
 		cstate<=s_reset;
 	else
@@ -73,6 +75,25 @@ module PWM_Decoder (
 		end
 	endcase
   end
+  
+
+  always@(posedge clk or posedge rst) begin
+    if (rst) begin
+      cnt <= 26'd0;
+      clk_div <= 'b0;
+    end
+    else begin
+
+      if (cnt == 62500000 - 1) cnt <= 26'd0;
+      else cnt <= cnt + 1;
+
+      if (cnt < 31250000 - 1) clk_div <= 'b0;
+      else clk_div <= 'b1;
+    end
+  end
+
+endmodule
+
   /*always @ ( * ) begin
     case (sw)
       2'b00: begin
