@@ -11,7 +11,7 @@ module PWM_Decoder (
   reg [25:0] cnt;
   reg clk_div;
   parameter red=3'd0,orange=3'd1,yellow=3'd2,green=3'd3,blue=3'd4,pinying=3'd5,purple=3'd6,s_reset=3'd7
-  always@(posedge clk_div)begin
+	always@(posedge clk_div or posedge rst)begin
 	if(rst)
 		cstate<=s_reset;
 	else
@@ -94,34 +94,3 @@ module PWM_Decoder (
 
 endmodule
 
-  /*always @ ( * ) begin
-    case (sw)
-      2'b00: begin
-        R_time_out = 8'd100;
-        G_time_out = 8'd0;
-        B_time_out = 8'd0;
-      end
-      2'b01: begin
-        R_time_out = 8'd100;
-        G_time_out = 8'd100;
-        B_time_out = 8'd0;
-      end
-      2'b10: begin
-        R_time_out = 8'd100;
-        G_time_out = 8'd10;
-        B_time_out = 8'd255;
-      end
-      2'b11: begin
-        R_time_out = 8'd255;
-        G_time_out = 8'd255;
-        B_time_out = 8'd255;
-      end
-      default: begin
-        R_time_out = 8'd0;
-        G_time_out = 8'd0;
-        B_time_out = 8'd0;
-      end
-    endcase
-  end*/
-
-endmodule // Decoder
