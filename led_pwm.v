@@ -1,4 +1,4 @@
-module  led(
+module  led_pwm(
   input  clk,
   input  rst,
   output reg [7:0] led_out
