@@ -31,8 +31,7 @@ end
 		default:;
 	endcase
 end
-endmodule
-always@(posedge clk or posedge rst) begin
+	always@(posedge clk or posedge rst) begin
     if (rst) begin
       cnt <= 26'd0;
       clk_div <= 'b0;
@@ -48,3 +47,5 @@ always@(posedge clk or posedge rst) begin
   end
 
 endmodule
+
+
