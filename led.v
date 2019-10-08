@@ -2,7 +2,7 @@ module	LED(
 	input			clk,		//100MHz
 	input			rst,
 	input	[7:0]		led_in,
-	output	reg [3:0]       led		
+	output  [3:0]       led		
 );
 
 wire	[7:0]	next_counter_256;
