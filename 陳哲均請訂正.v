@@ -30,16 +30,26 @@ case(nstate)
 	next_counter_256 = (counter_256 == 8'd254)? 8'd255 : counter_256 + 8'd1;
 	counter_256	<= next_counter_256;
 	if(next_counter_256==255)
-	{nstate=sub;}
-	else{nstate=add;}
+	begin
+	nstate=sub;
+	end
+	else 
+	begin
+	nstate=add; 
+	end
 	end
 	sub:
 	begin
 	next_counter_256 = (counter_256 == 8'd1)? 8'd0 : counter_256 - 8'd1;
 	counter_256	<= next_counter_256;
 	if(next_counter_256==0)
-	{nstate=add;}
-	else{nstate=sub;}
+		begin
+	nstate=add;
+		end
+	else 
+		begin
+		nstate=sub;
+	        end
 	end
 	
 	
