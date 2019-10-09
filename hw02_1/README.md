@@ -9,7 +9,6 @@ Homework 2
 使用一顆 RGB LED ，透過給予不同的 R、G、B time 來產生彩虹七色。
 
 # Finite State Machine
-## FSM for PWM_Decoder.v
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/rainbow_FSM.png"></img>
 ## 注意事項
 * 若要加入ip,ip repository 選`hw02_1` 整個資料夾就能選到所需的兩個ip了!
@@ -29,7 +28,7 @@ Homework 2
 
 使用板子右下角的單色LED ，實作一顆呼吸燈。
 # Finite State Machine
-## FSM for led_pwm.v
+## fsm for led_pwm.v
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_2/image/hw2.jpg"></img>
 # 實現結果
 
@@ -41,13 +40,19 @@ Homework 2
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-## Bonus - 電競 RGB 呼吸燈 
+## Bonus - 電競 RGB 呼吸燈 (20%)
 
 ### 作業說明
 
 科技日新月異，電子競技這項運動項目逐漸崛起，而提到電競就不得不提到附有 RGB 色燈的各項電腦周邊，如：滑鼠、鍵盤、風扇、甚至水冷系統，任何你想的到的電競相關的產品都會有 RGB 燈在上面。
 
 請綜合上面兩題的概念，使用 RGB LED 實作呼吸燈。
+### 作業需求
+
+1. 使用一顆 RGB LED 即可。
+
+2. 呼吸燈顏色和第一題一樣需按照彩虹七色的順序來顯示。
+
 ## pwm值控制說明
 * 以紅燈為例
 
@@ -59,8 +64,6 @@ Homework 2
 
 > p.s. 因為色碼之間需要維持比例，所以用左移和右移來增加減少pwm值，以免顏色跑掉，而不用加減法，所以呼吸燈的強度變化比較不平滑!
 
-### 作業需求
+## Finite State Machine
+![bonus_fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_bonus_liu/image/bonus_fsm.png?raw=true)
 
-1. 使用一顆 RGB LED 即可。
-
-2. 呼吸燈顏色和第一題一樣需按照彩虹七色的順序來顯示。
