@@ -23,7 +23,7 @@ Homework 2
 
 使用板子右下角的單色 LED ，實作一顆呼吸燈。
 # Finite State Machine
-## 
+## fsm for led_pwm.v
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_2/image/hw2.jpg"></img>
 # 實現結果
 
