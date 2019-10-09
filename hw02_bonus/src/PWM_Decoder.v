@@ -9,6 +9,7 @@ module PWM_Decoder (
   reg [3:0] nstate;
   reg [25:0] cnt;
   reg clk_div;
+	reg [7:0] counter_time;//to show in the same time
   parameter red_plus=4'd0,red_minus=4'd1,orange_plus=4'd2,orange_minus=4'd3,yellow_plus=4'd4,yellow_minus=4'd5,green_plus=4'd6,green_minus=4'd7, blue_plus=4'd8,blue_minus=4'd9,indigo_plus=4'd10,indigo_minus=4'd11,purple_plus=4'd12,purple_minus=4'd13,s_reset=4'd14;
 	always@(posedge clk_div or posedge rst)begin
 	if(rst)
@@ -34,7 +35,6 @@ module PWM_Decoder (
 		purple_plus:nstate=(R_time_out<8'd159&&G_time_out<8'd31&&B_time_out<8'd239)?purple_plus:purple_minus;
 		purple_minus:nstate=(R_time_out>8'd1&&G_time_out>8'd1&&B_time_out>8'd1)?purple_minus:red_plus;
 		default:nstate=s_reset;
-		end
 	endcase
   end
   always@(posedge clk_div)begin
@@ -43,6 +43,7 @@ module PWM_Decoder (
 			R_time_out<=8'd0;
 			G_time_out<=8'd0;
 			B_time_out<=8'd0;
+			counter_time<=0;
 		end
 		red_plus:begin
 			R_time_out<=R_time_out+8'd1;
@@ -108,7 +109,7 @@ module PWM_Decoder (
 		purple_plus:begin
 			R_time_out<=(R_time_out<8'd160)?R_time_out+8'd1:8'd160;
 			G_time_out<=(G_time_out<8'd32)?R_time_out+8'd1:8'd32;
-			B_time_out<=(B_time_out<8'2404)?R_time_out+8'd1:8'd240;
+			B_time_out<=(B_time_out<8'd240)?R_time_out+8'd1:8'd240;
 		end
 		purple_minus:begin
 			R_time_out<=(R_time_out>0)?R_time_out-8'd1:8'd0;
