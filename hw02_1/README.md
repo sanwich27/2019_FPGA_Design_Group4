@@ -13,6 +13,7 @@ Homework 2
 ## 注意事項
 * 若要加入ip,ip repository 選`hw02_1` 整個資料夾就能選到所需的兩個ip了!
 # 實現結果
+ * [影片](https://youtu.be/8cdW0yABxeg)
 ## block design
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/bd.JPG"></img>
 # 心得
@@ -31,7 +32,7 @@ Homework 2
 ## fsm for led_pwm.v
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_2/image/hw2.jpg"></img>
 # 實現結果
-
+  * [影片](https://youtu.be/WnyjReR52XU)
 # 心得
 
 * 在實作呼吸燈的時候，花了很多時間debug，試了很多方式，一開始還以為是減法的問題，最後發現是在邊界條件判斷的時候發生錯誤，但也學到滿多debug的方式，例如:用led顯示目前的state、初始值得重要性等等......
@@ -66,4 +67,7 @@ Homework 2
 
 ## Finite State Machine
 ![bonus_fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_bonus_liu/image/bonus_fsm.png?raw=true)
+
+## 實現結果
+ * [影片](https://youtu.be/9rb8f1onZSs)
 
