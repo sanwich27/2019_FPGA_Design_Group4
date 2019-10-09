@@ -22,18 +22,18 @@ module PWM_Decoder (
 		s_reset:nstate=red_plus;
 		red_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
 		red_minus:nstate=(R_time_out>8'd1)?red_minus:orange_plus;
-		orange_plus:nstate=(R_time_out<8'd254&&G_time_out<8'd59)?orange_plus:orange_minus;
-		orange_minus:nstate=(R_time_out>8'd1&&G_time_out>8'd1)?orange_minus:yellow_plus;
+		orange_plus:nstate=(R_time_out<8'd254&&G_time_out<8'd59&&counter_time<8'd254)?orange_plus:orange_minus;
+		orange_minus:nstate=(R_time_out>8'd1&&G_time_out>8'd1&&counter_time>8'd1)?orange_minus:yellow_plus;
 		yellow_plus:nstate=(R_time_out<8'd254&&G_time_out<8'd254)?yellow_plus:yellow_minus;
 		yellow_minus:nstate=(R_time_out>8'd1&&G_time_out>8'd1)?yellow_minus:green_plus;
 		green_plus:nstate=(G_time_out<8'd254)?green_plus:green_minus;
 		green_minus:nstate=(G_time_out>8'd1)?green_minus:blue_plus;
 		blue_plus:nstate=(B_time_out<8'd254)?blue_plus:blue_minus;
 		blue_minus:nstate=(B_time_out>8'd1)?blue_minus:indigo_plus;
-		indigo_plus:nstate=(R_time_out<8'd7&&G_time_out<8'd45&&B_time_out<8'd83)?indigo_plus:indigo_minus;
-		indigo_minus:nstate=(R_time_out>8'd1&&G_time_out>8'd1&&B_time_out>8'd1)?indigo_minus:purple_plus;
-		purple_plus:nstate=(R_time_out<8'd159&&G_time_out<8'd31&&B_time_out<8'd239)?purple_plus:purple_minus;
-		purple_minus:nstate=(R_time_out>8'd1&&G_time_out>8'd1&&B_time_out>8'd1)?purple_minus:red_plus;
+		indigo_plus:nstate=(R_time_out<8'd7&&G_time_out<8'd45&&B_time_out<8'd83&&counter_time<8'd254)?indigo_plus:indigo_minus;
+		indigo_minus:nstate=(R_time_out>8'd1&&G_time_out>8'd1&&B_time_out>8'd1&&counter_time>8'd1)?indigo_minus:purple_plus;
+		purple_plus:nstate=(R_time_out<8'd159&&G_time_out<8'd31&&B_time_out<8'd239&&counter_time<8'd254)?purple_plus:purple_minus;
+		purple_minus:nstate=(R_time_out>8'd1&&G_time_out>8'd1&&B_time_out>8'd1&&counter_time>8'd1)?purple_minus:red_plus;
 		default:nstate=s_reset;
 	endcase
   end
@@ -56,12 +56,13 @@ module PWM_Decoder (
 			B_time_out<=8'd0;
 		end
 		orange_plus:begin
-			
+			counter_time<=counter_time+8'd1;
 			R_time_out<=(R_time_out<8'd255)?R_time_out+8'd1:8'd255;
 			G_time_out<=(G_time_out<8'd60)?R_time_out+8'd1:8'd60;
 			B_time_out<=8'd0;
 		end
 		orange_minus:begin
+			counter_time<=counter_time-8'd1;
 			R_time_out<=(R_time_out>0)?R_time_out-8'd1:8'd0;
 			G_time_out<=(G_time_out>0)?G_time_out-8'd1:8'd0;
 			B_time_out<=8'd0;
@@ -97,21 +98,25 @@ module PWM_Decoder (
 			B_time_out<=B_time_out-8'd1;
 		end
 		indigo_plus:begin
+			counter_time<=counter_time+8'd1;
 			R_time_out<=(R_time_out<8'd8)?R_time_out+8'd1:8'd8;
 			G_time_out<=(G_time_out<8'd46)?R_time_out+8'd1:8'd46;
 			B_time_out<=(B_time_out<8'd84)?R_time_out+8'd1:8'd84;
 		end
 		indigo_minus:begin
+			counter_time<=counter_time-8'd1;
 			R_time_out<=(R_time_out>0)?R_time_out-8'd1:8'd0;
 			G_time_out<=(G_time_out>0)?G_time_out-8'd1:8'd0;
 			B_time_out<=(B_time_out>0)?B_time_out-8'd1:8'd0;
 		end
 		purple_plus:begin
+			counter_time<=counter_time+8'd1;
 			R_time_out<=(R_time_out<8'd160)?R_time_out+8'd1:8'd160;
 			G_time_out<=(G_time_out<8'd32)?R_time_out+8'd1:8'd32;
 			B_time_out<=(B_time_out<8'd240)?R_time_out+8'd1:8'd240;
 		end
 		purple_minus:begin
+			counter_time<=counter_time-8'd1;
 			R_time_out<=(R_time_out>0)?R_time_out-8'd1:8'd0;
 			G_time_out<=(G_time_out>0)?G_time_out-8'd1:8'd0;
 			B_time_out<=(B_time_out>0)?B_time_out-8'd1:8'd0;
