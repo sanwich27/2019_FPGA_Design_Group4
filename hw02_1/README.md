@@ -11,7 +11,7 @@ Homework 2
 # Finite State Machine
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/rainbow_FSM.png"></img>
 ## 注意事項
-* 若要加入ip,ip repository 選hw02_1就能選到所需的兩個ip了!
+* 若要加入ip,ip repository 選`hw02_1 就能選到所需的兩個ip了!
 # 實現結果
 ## block design
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/bd.JPG"></img>
