@@ -9,7 +9,7 @@ module PWM_Decoder (
   reg [3:0] nstate;
   reg [25:0] cnt;
   reg clk_div;
-  parameter red_plus=4'd0,red_minus=4'd1/*,orange_plus=4'd2,orange_minus=4'd3,yellow_plus=4'd4,yellow_minus=4'd5*/,green_plus=4'd6,green_minus=4'd7, blue_plus=4'd8,blue_minus=4'd9/*,indigo_plus=4'd10,indigo_minus=4'd11,purple_plus=4'd12,purple_minus=4'd13*/,s_reset=4'd14;
+  parameter red_plus=4'd0,red_minus=4'd1,orange_plus=4'd2,orange_minus=4'd3,yellow_plus=4'd4,yellow_minus=4'd5,green_plus=4'd6,green_minus=4'd7, blue_plus=4'd8,blue_minus=4'd9,indigo_plus=4'd10,indigo_minus=4'd11,purple_plus=4'd12,purple_minus=4'd13,s_reset=4'd14;
 	always@(posedge clk_div or posedge rst)begin
 	if(rst)
 		cstate<=s_reset;
@@ -21,18 +21,18 @@ module PWM_Decoder (
 		s_reset:nstate=red_plus;
 		red_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
 		red_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
-		/*orange_plus:nstate=yellow;
-		orange_minus:nstate=yellow;
-		yellow_plus:nstate=green;
-		yellow_minus:nstate=green;*/
+		orange_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
+		orange_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
+		yellow_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
+		yellow_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
 		green_plus:nstate=(G_time_out<8'd254)?green_plus:green_minus;
 		green_minus:nstate=(G_time_out>8'd1)?green_minus:blue_plus;
 		blue_plus:nstate=(B_time_out<8'd254)?blue_plus:blue_minus;
 		blue_minus:nstate=(B_time_out>8'd1)?blue_minus:red_plus;
-		/*indigo_plus:nstate=purple;
-		indigo_minus:nstate=purple;
-		purple_plus:nstate=red;
-		purple_minus:nstate=red;*/
+		indigo_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
+		indigo_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
+		purple_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
+		purple_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
 		default:nstate=s_reset;
 		end
 	endcase
