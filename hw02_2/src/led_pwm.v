@@ -18,8 +18,8 @@ always@(posedge clk_div or posedge rst)begin
 always@(*)begin
 	case(cstate)
 		s_reset:nstate=s_plus;
-		s_plus:nstate=(led_out>8'd254)?s_minus:s_plus;
-		s_minus:nstate=(led_out<8'd1)?s_plus:s_minus;
+		s_plus:nstate=(led_out>8'd253)?s_minus:s_plus;
+		s_minus:nstate=(led_out<8'd2)?s_plus:s_minus;
 		default:nstate=s_reset;
 	endcase
 end
@@ -38,10 +38,10 @@ end
     end
     else begin
 
-      if (cnt == 6250000 - 1) cnt <= 26'd0;
+      if (cnt == 625000 - 1) cnt <= 26'd0;
       else cnt <= cnt + 1;
 
-      if (cnt < 3125000 - 1) clk_div <= 'b0;
+      if (cnt < 312500 - 1) clk_div <= 'b0;
       else clk_div <= 'b1;
     end
   end
