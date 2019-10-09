@@ -7,10 +7,10 @@ module PWM_Decoder (
 );
   reg [2:0] cstate;
   reg [2:0] nstate;
-  reg [25:0] cnt;
-  reg clk_div;
+  reg [25:0] cnt;//counter for clock divider
+  reg clk_div;//clock divider
   parameter red=3'd0,orange=3'd1,yellow=3'd2,green=3'd3,blue=3'd4,indigo=3'd5,purple=3'd6,s_reset=3'd7;
-	always@(posedge clk_div or posedge rst)begin
+  always@(posedge clk_div or posedge rst)begin
 	if(rst)
 		cstate<=s_reset;
 	else
