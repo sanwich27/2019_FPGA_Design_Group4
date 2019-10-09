@@ -5,9 +5,9 @@ module PWM_Decoder (
 );
 reg clk_div;
 reg [25:0] cnt;
-reg [2:0] nstate;
-reg [2:0] cstate;
-parameter add=3'd0,sub=3'd1,s_reset=3'd2;
+  reg [1:0] nstate;
+  reg [1:0] cstate;
+parameter add=2'd0,sub=2'd1,s_reset=2'd2;
   always@(posedge clk_div or posedge rst)
     begin
       if(rst)begin
@@ -17,7 +17,7 @@ parameter add=3'd0,sub=3'd1,s_reset=3'd2;
           cstate<=nstate;
     end
   
-  always@(posedge clk_div or posedge rst)
+  always@(posedge clk_div )
     begin
       if(rst)
       ;
@@ -28,11 +28,11 @@ parameter add=3'd0,sub=3'd1,s_reset=3'd2;
       end
         add:
           begin
-            R_time_out <=(R_time_out>8'd254)?8'd255:R_time_out+1;
+            R_time_out <=R_time_out+8'd1;
           end
         sub:
           begin
-            R_time_out <= (R_time_out < 8'd1)? 8'd0 : R_time_out - 8'd1;
+            R_time_out <=  R_time_out - 8'd1;
           end
       endcase
       end
@@ -85,10 +85,10 @@ always @ ( * ) begin
     end
     else begin
 
-      if (cnt == 6250000 - 1) cnt <= 26'd0;
+      if (cnt == 625000 - 1) cnt <= 26'd0;
       else cnt <= cnt + 1;
 
-      if (cnt < 3125000 - 1) clk_div <= 'b0;
+      if (cnt < 312500 - 1) clk_div <= 'b0;
       else clk_div <= 'b1;
     end
   end
