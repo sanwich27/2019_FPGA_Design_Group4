@@ -5,12 +5,12 @@ module PWM_Decoder (
   output reg [7:0] G_time_out,
   output reg [7:0] B_time_out
 );
-  reg [3:0] cstate;
-  reg [3:0] nstate;
-  reg [25:0] cnt;
-  reg clk_div;
+  reg [2:0] cstate;
+  reg [2:0] nstate;
+  reg [25:0] cnt;//counter for clock divider
+  reg clk_div;//clock divider
   parameter red=3'd0,orange=3'd1,yellow=3'd2,green=3'd3,blue=3'd4,indigo=3'd5,purple=3'd6,s_reset=3'd7;
-	always@(posedge clk_div or posedge rst)begin
+  always@(posedge clk_div or posedge rst)begin
 	if(rst)
 		cstate<=s_reset;
 	else
@@ -18,63 +18,67 @@ module PWM_Decoder (
   end
   always@(*)begin
 	case(cstate)
+		s_reset:nstate=red;
+		red:nstate=orange;
+		orange:nstate=yellow;
+		yellow:nstate=green;
+		green:nstate=blue;
+		blue:nstate=indigo;
+		indigo:nstate=purple;
+		purple:nstate=red;
+		default:nstate=s_reset;
+
+	endcase
+  end
+	always@(posedge clk_div)begin
+	case(cstate)
 		s_reset:begin
-			nstate=red;
-			R_time_out = 8'd0;
-			G_time_out = 8'd0;
-			B_time_out = 8'd0;
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd0;
 		end
 		red:begin
-			nstate=orange;
-			R_time_out = 8'd255;
-			G_time_out = 8'd0;
-			B_time_out = 8'd0;
+			R_time_out <= 8'd255;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd0;
 		end
 		orange:begin
-			nstate=yellow;
-			R_time_out = 8'd255;
-			G_time_out = 8'd60;
-			B_time_out = 8'd0;
+			R_time_out <= 8'd255;
+			G_time_out <= 8'd30;
+			B_time_out <= 8'd0;
 		end
 		yellow:begin
-			nstate=green;
-			R_time_out = 8'd255;
-			G_time_out = 8'd255;
-			B_time_out = 8'd0;
+			R_time_out <= 8'd255;
+			G_time_out <= 8'd255;
+			B_time_out <= 8'd0;
 		end
 		green:begin
-			nstate=blue;
-			R_time_out = 8'd0;
-			G_time_out = 8'd255;
-			B_time_out = 8'd0;
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd255;
+			B_time_out <= 8'd0;
 		end
 		blue:begin
-			nstate=indigo;
-			R_time_out = 8'd0;
-			G_time_out = 8'd0;
-			B_time_out = 8'd255;
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd255;
 		end
 		indigo:begin
-			nstate=purple;
-			R_time_out = 8'd8;
-			G_time_out = 8'd46;
-			B_time_out = 8'd84;
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd90;
+			B_time_out <= 8'd180;
 		end
 		purple:begin
-			nstate=red;
-			R_time_out = 8'd160;
-			G_time_out = 8'd32;
-			B_time_out = 8'd240;
+			R_time_out <= 8'd139;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd255;
 		end
 		default:begin
-			nstate=s_reset;
-			R_time_out = 8'd0;
-			G_time_out = 8'd0;
-			B_time_out = 8'd0;
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd0;
 		end
 	endcase
   end
-  
 
   always@(posedge clk or posedge rst) begin
     if (rst) begin
