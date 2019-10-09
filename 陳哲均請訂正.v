@@ -1,74 +1,61 @@
 module PWM_Decoder (
- 
-  output reg [7:0] R_time_out,
-  reg [3:0] nstate;
-  reg [3:0] cstate;
-  parameter add=2'd0,sub=2'd1,
+  input clk,
+  input rst,
+  output reg [7:0] R_time_out
 );
-
+reg [2:0] nstate;
+reg [2:0] cstate;
+parameter add=3'd0,sub=3'd1,s_reset=3'd2;
   always@(posedge clk or posedge rst)
     begin
-      if(rst)
-        R_time_out<=0;
-        nstate<=add;
+      if(rst)begin
+            cstate<=s_reset;
+        end
         else
           cstate<=nstate;
     end
   
-  
-  
  always@(posedge clk or posedge rst)
     begin
+      if(rst)
+      ;
+      else begin
       case(cstate)
+      s_reset:begin
+        R_time_out<=8'd0;
+      end
         add:
           begin
-            R_time_out=(R_time_out==8'd254)?8'd255:R_time_out+1;
+            R_time_out <=(R_time_out>8'd254)?8'd255:R_time_out+1;
           end
         sub:
           begin
-            R_time_out = (R_time_out == 8'd1)? 8'd0 : R_time_out - 8'd1;
+            R_time_out <= (R_time_out < 8'd1)? 8'd0 : R_time_out - 8'd1;
           end
-        
-       
+      endcase
+      end
     end 
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-always @ ( * ) begin
-  //////////
-  case(cstate)
-   add:
-      begin
-      
 
-    if(R_time_out==8'd255)
-    begin
-    nstate=sub;
-    end
-        
+always @ ( * ) begin
+  case(cstate)
+    s_reset:nstate=add;
+    add:begin
+    if(R_time_out>8'd254)
+        begin
+            nstate=sub;
+        end 
     else 
-    begin
-    nstate=add; 
-    end 
-      
-      
+        begin
+            nstate=add; 
+        end    
   end
-    //////////
-    sub:
+   sub:
     begin
-   
-      if(R_time_out==8'd0)
-    begin
-    nstate=add;
-    end
+      if(R_time_out<8'd1)
+            begin
+                nstate=add;
+            end
         
     else 
     begin
