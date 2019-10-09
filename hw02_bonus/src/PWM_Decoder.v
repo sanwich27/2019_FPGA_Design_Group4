@@ -55,23 +55,24 @@ module PWM_Decoder (
 			B_time_out<=8'd0;
 		end
 		orange_plus:begin
-			R_time_out<=R_time_out+8'd1;
-			G_time_out<=8'd0;
+			
+			R_time_out<=(R_time_out<8'd255)?R_time_out+8'd1:8'd255;
+			G_time_out<=(G_time_out<8'd60)?R_time_out+8'd1:8'd60;
 			B_time_out<=8'd0;
 		end
 		orange_minus:begin
-			R_time_out<=R_time_out-8'd1;
-			G_time_out<=8'd0;
+			R_time_out<=(R_time_out>0)?R_time_out-8'd1:8'd0;
+			G_time_out<=(G_time_out>0)?G_time_out-8'd1:8'd0;
 			B_time_out<=8'd0;
 		end
 		yellow_plus:begin
 			R_time_out<=R_time_out+8'd1;
-			G_time_out<=8'd0;
+			G_time_out<=G_time_out+8'd1;
 			B_time_out<=8'd0;
 		end
 		yellow_minus:begin
 			R_time_out<=R_time_out-8'd1;
-			G_time_out<=8'd0;
+			G_time_out<=G_time_out-8'd1;
 			B_time_out<=8'd0;
 		end
 		green_plus:begin
@@ -95,24 +96,24 @@ module PWM_Decoder (
 			B_time_out<=B_time_out-8'd1;
 		end
 		indigo_plus:begin
-			R_time_out<=R_time_out+8'd1;
-			G_time_out<=8'd0;
-			B_time_out<=8'd0;
+			R_time_out<=(R_time_out<8'd8)?R_time_out+8'd1:8'd8;
+			G_time_out<=(G_time_out<8'd46)?R_time_out+8'd1:8'd46;
+			B_time_out<=(B_time_out<8'd84)?R_time_out+8'd1:8'd84;
 		end
 		indigo_minus:begin
-			R_time_out<=R_time_out-8'd1;
-			G_time_out<=8'd0;
-			B_time_out<=8'd0;
+			R_time_out<=(R_time_out>0)?R_time_out-8'd1:8'd0;
+			G_time_out<=(G_time_out>0)?G_time_out-8'd1:8'd0;
+			B_time_out<=(B_time_out>0)?B_time_out-8'd1:8'd0;
 		end
 		purple_plus:begin
-			R_time_out<=R_time_out+8'd1;
-			G_time_out<=8'd0;
-			B_time_out<=8'd0;
+			R_time_out<=(R_time_out<8'd160)?R_time_out+8'd1:8'd160;
+			G_time_out<=(G_time_out<8'd32)?R_time_out+8'd1:8'd32;
+			B_time_out<=(B_time_out<8'2404)?R_time_out+8'd1:8'd240;
 		end
 		purple_minus:begin
-			R_time_out<=R_time_out-8'd1;
-			G_time_out<=8'd0;
-			B_time_out<=8'd0;
+			R_time_out<=(R_time_out>0)?R_time_out-8'd1:8'd0;
+			G_time_out<=(G_time_out>0)?G_time_out-8'd1:8'd0;
+			B_time_out<=(B_time_out>0)?B_time_out-8'd1:8'd0;
 		end
 		default:begin
 			R_time_out<=8'd0;
