@@ -44,7 +44,7 @@ module PWM_Decoder (
 		end
 		orange:begin
 			R_time_out <= 8'd255;
-			G_time_out <= 8'd60;
+			G_time_out <= 8'd30;
 			B_time_out <= 8'd0;
 		end
 		yellow:begin
@@ -63,14 +63,14 @@ module PWM_Decoder (
 			B_time_out <= 8'd255;
 		end
 		indigo:begin
-			R_time_out <= 8'd8;
-			G_time_out <= 8'd46;
-			B_time_out <= 8'd84;
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd90;
+			B_time_out <= 8'd180;
 		end
 		purple:begin
-			R_time_out <= 8'd160;
-			G_time_out <= 8'd32;
-			B_time_out <= 8'd240;
+			R_time_out <= 8'd139;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd255;
 		end
 		default:begin
 			R_time_out <= 8'd0;
