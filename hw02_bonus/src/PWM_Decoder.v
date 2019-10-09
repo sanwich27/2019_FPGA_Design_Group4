@@ -54,6 +54,26 @@ module PWM_Decoder (
 			G_time_out<=8'd0;
 			B_time_out<=8'd0;
 		end
+		orange_plus:begin
+			R_time_out<=R_time_out+8'd1;
+			G_time_out<=8'd0;
+			B_time_out<=8'd0;
+		end
+		orange_minus:begin
+			R_time_out<=R_time_out-8'd1;
+			G_time_out<=8'd0;
+			B_time_out<=8'd0;
+		end
+		yellow_plus:begin
+			R_time_out<=R_time_out+8'd1;
+			G_time_out<=8'd0;
+			B_time_out<=8'd0;
+		end
+		yellow_minus:begin
+			R_time_out<=R_time_out-8'd1;
+			G_time_out<=8'd0;
+			B_time_out<=8'd0;
+		end
 		green_plus:begin
 			R_time_out<=8'd0;
 			G_time_out<=G_time_out+8'd1;
@@ -73,6 +93,26 @@ module PWM_Decoder (
 			R_time_out<=8'd0;
 			G_time_out<=8'd0;
 			B_time_out<=B_time_out-8'd1;
+		end
+		indigo_plus:begin
+			R_time_out<=R_time_out+8'd1;
+			G_time_out<=8'd0;
+			B_time_out<=8'd0;
+		end
+		indigo_minus:begin
+			R_time_out<=R_time_out-8'd1;
+			G_time_out<=8'd0;
+			B_time_out<=8'd0;
+		end
+		purple_plus:begin
+			R_time_out<=R_time_out+8'd1;
+			G_time_out<=8'd0;
+			B_time_out<=8'd0;
+		end
+		purple_minus:begin
+			R_time_out<=R_time_out-8'd1;
+			G_time_out<=8'd0;
+			B_time_out<=8'd0;
 		end
 		default:begin
 			R_time_out<=8'd0;
