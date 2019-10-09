@@ -3,6 +3,8 @@ module PWM_Decoder (
   input rst,
   output reg [7:0] R_time_out
 );
+reg clk_div;
+reg [25:0] cnt;
 reg [2:0] nstate;
 reg [2:0] cstate;
 parameter add=3'd0,sub=3'd1,s_reset=3'd2;
