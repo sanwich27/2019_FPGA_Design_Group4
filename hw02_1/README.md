@@ -44,6 +44,9 @@ Homework 2
 
 請綜合上面兩題的概念，使用 RGB LED 實作呼吸燈。
 ## pwm值控制說明
+### 以紅燈為例
+
+> 色碼:{255,0,0}
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_bonus_liu/image/shift.png"></img>
 ### 作業需求
 
