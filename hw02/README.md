@@ -4,26 +4,18 @@ Homework 2
 李奕勳、劉旭祐、陳哲均
 
 ## Program 1 - 使用 PWM 產生彩虹七色 (50%)
-
-### 作業說明
+# 問題描述
+### 說明
 
 使用一顆 RGB LED ，透過給予不同的 R、G、B time 來產生彩虹七色。
 
-### 作業需求
+# Finite State Machine
 
-1. 七種顏色不必淡出淡入，可以分段產生。
-> ex : 紅色亮2秒後換橙色，橙色亮2秒後換黃色，依此類推。
+# 實現結果
 
-2. **必須自己建立IP，使用Block Design完成作業**
+# 心得
 
-3. 上傳作業時須連 IP 資料夾一起上傳。*(參照Lab2-1)*
-
-### Hint
-
-1. [各色RGB值參考](https://microdnd.pixnet.net/blog/post/103334755-%5B%E7%A8%8B%E5%BC%8F%5D-%E5%90%84%E9%A1%8F%E8%89%B2rgb%E5%80%BC%E5%8F%83%E8%80%83%E8%A1%A8)
-
-2. System Block 可以參考 Lab 2-1 *(i.e.改寫其中一個Block即可)*，
-
+* 在網路上或是助教提供的色碼表，在FPGA的RGB上看到的顏色，和在電腦螢幕上看到的顏色會有出入
 ## Program 2 - 使用單色 LED 實作呼吸燈 (50%)
 
 ### 作業說明
