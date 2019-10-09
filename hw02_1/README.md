@@ -11,19 +11,19 @@ Homework 2
 # Finite State Machine
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/rainbow_FSM.png"></img>
 ## 注意事項
-* 若要加入ip,ip repository 選`hw02_1` 就能選到所需的兩個ip了!
+* 若要加入ip,ip repository 選`hw02_1` 整個資料夾就能選到所需的兩個ip了!
 # 實現結果
 ## block design
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/bd.JPG"></img>
 # 心得
 
-* 使用網路上或是助教提供的色碼表，在FPGA的RGB LED上看到的顏色，和在電腦螢幕上看到的顏色會有出入，所以要多次嘗試來調整FPGA RGB LED上的顏色
+* 使用網路上或是助教提供的色碼表，在FPGA的`RGB LED`上看到的顏色，和在電腦螢幕上看到的顏色會有出入，所以要多次嘗試來調整FPGA `RGB LED`上的顏色
 
 * 第一次接觸PWM，一開始還不太了解作用，後來嘗試很多次才漸漸了解運作方式和佔空比的概念，滿神奇的。
 ## Program 2 - 使用單色 LED 實作呼吸燈 
 # 問題描述
 
-使用板子右下角的單色 LED ，實作一顆呼吸燈。
+使用板子右下角的單色 `LED` ，實作一顆呼吸燈。
 # Finite State Machine
 ## fsm for led_pwm.v
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_2/image/hw2.jpg"></img>
