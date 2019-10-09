@@ -5,7 +5,6 @@ Homework 2
 
 ## Program 1 - 使用 PWM 產生彩虹七色 
 # 問題描述
-### 說明
 
 使用一顆 RGB LED ，透過給予不同的 R、G、B time 來產生彩虹七色。
 
@@ -20,7 +19,6 @@ Homework 2
 * 第一次接觸PWM，一開始還不太了解作用，後來嘗試很多次才漸漸了解運作方式和佔空比的概念，滿神奇的。
 ## Program 2 - 使用單色 LED 實作呼吸燈 
 # 問題描述
-### 作業說明
 
 使用板子右下角的單色 LED ，實作一顆呼吸燈。
 # Finite State Machine
