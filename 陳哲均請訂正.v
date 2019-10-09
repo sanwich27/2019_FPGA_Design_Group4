@@ -6,7 +6,7 @@ module PWM_Decoder (
 reg [2:0] nstate;
 reg [2:0] cstate;
 parameter add=3'd0,sub=3'd1,s_reset=3'd2;
-  always@(posedge clk or posedge rst)
+  always@(posedge clk_div or posedge rst)
     begin
       if(rst)begin
             cstate<=s_reset;
@@ -15,7 +15,7 @@ parameter add=3'd0,sub=3'd1,s_reset=3'd2;
           cstate<=nstate;
     end
   
- always@(posedge clk or posedge rst)
+  always@(posedge clk_div or posedge rst)
     begin
       if(rst)
       ;
