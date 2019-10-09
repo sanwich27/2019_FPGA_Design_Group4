@@ -9,7 +9,7 @@ Homework 2
 使用一顆 RGB LED ，透過給予不同的 R、G、B time 來產生彩虹七色。
 
 # Finite State Machine
-
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/rainbow_FSM.png"></img>
 # 實現結果
 
 # 心得
