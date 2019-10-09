@@ -1,8 +1,8 @@
 module	LED(
 	input			clk,		//100MHz
 	input			rst,
-	input	[7:0]		led_in,
-	output  [3:0]       led		
+	input	[7:0]		led_in,//pwm from led_pwm.v
+	output  [3:0]      	led		
 );
 
 wire	[7:0]	next_counter_256;
@@ -10,8 +10,7 @@ wire	[7:0]	next_counter_256;
 reg		[7:0]	counter_256;
 
 assign			next_counter_256 = (counter_256 == 8'd255)? 8'd0 : counter_256 + 8'd1;	//400KHz
-
-assign			led[0] = (counter_256 < led_in)? 1'd1 : 1'd0;
+assign			led[0] = (counter_256 < led_in)? 1'd1 : 1'd0;//how many clocks the led is lighted within 256 clocks
 assign			led[1] = (counter_256 < led_in)? 1'd1 : 1'd0;
 assign			led[2] = (counter_256 < led_in)? 1'd1 : 1'd0;
 assign			led[3] = (counter_256 < led_in)? 1'd1 : 1'd0;
