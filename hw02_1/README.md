@@ -9,6 +9,7 @@ Homework 2
 使用一顆 RGB LED ，透過給予不同的 R、G、B time 來產生彩虹七色。
 
 # Finite State Machine
+## FSM for PWM_decoder.v
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/rainbow_FSM.png"></img>
 ## 注意事項
 * 若要加入ip,ip repository 選`hw02_1` 整個資料夾就能選到所需的兩個ip了!
@@ -28,7 +29,7 @@ Homework 2
 
 使用板子右下角的單色LED ，實作一顆呼吸燈。
 # Finite State Machine
-## fsm for led_pwm.v
+## FSM for led_pwm.v
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_2/image/hw2.jpg"></img>
 # 實現結果
 
