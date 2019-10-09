@@ -89,10 +89,10 @@ module PWM_Decoder (
     end
     else begin
 
-      if (cnt == 6250000 - 1) cnt <= 26'd0;
+      if (cnt == 625000 - 1) cnt <= 26'd0;
       else cnt <= cnt + 1;
 
-      if (cnt < 3125000 - 1) clk_div <= 'b0;
+      if (cnt < 312500 - 1) clk_div <= 'b0;
       else clk_div <= 'b1;
     end
   end
