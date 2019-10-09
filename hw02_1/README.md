@@ -11,7 +11,8 @@ Homework 2
 # Finite State Machine
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/rainbow_FSM.png"></img>
 # 實現結果
-
+## block design
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_1/image/bd.JPG"></img>
 # 心得
 
 * 使用網路上或是助教提供的色碼表，在FPGA的RGB LED上看到的顏色，和在電腦螢幕上看到的顏色會有出入，所以要多次嘗試來調整FPGA RGB LED上的顏色
