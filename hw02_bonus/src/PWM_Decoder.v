@@ -20,19 +20,19 @@ module PWM_Decoder (
 	case(cstate)
 		s_reset:nstate=red_plus;
 		red_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
-		red_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
-		orange_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
-		orange_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
-		yellow_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
-		yellow_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
+		red_minus:nstate=(R_time_out>8'd1)?red_minus:orange_plus;
+		orange_plus:nstate=(R_time_out<8'd254)?orange_plus:orange_minus;
+		orange_minus:nstate=(R_time_out>8'd1)?orange_minus:yellow_plus;
+		yellow_plus:nstate=(R_time_out<8'd254)?yellow_plus:yellow_minus;
+		yellow_minus:nstate=(R_time_out>8'd1)?yellow_minus:green_plus;
 		green_plus:nstate=(G_time_out<8'd254)?green_plus:green_minus;
 		green_minus:nstate=(G_time_out>8'd1)?green_minus:blue_plus;
 		blue_plus:nstate=(B_time_out<8'd254)?blue_plus:blue_minus;
-		blue_minus:nstate=(B_time_out>8'd1)?blue_minus:red_plus;
-		indigo_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
-		indigo_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
-		purple_plus:nstate=(R_time_out<8'd254)?red_plus:red_minus;
-		purple_minus:nstate=(R_time_out>8'd1)?red_minus:green_plus;
+		blue_minus:nstate=(B_time_out>8'd1)?blue_minus:indigo_plus;
+		indigo_plus:nstate=(R_time_out<8'd254)?indigo_plus:indigo_minus;
+		indigo_minus:nstate=(R_time_out>8'd1)?indigo_minus:purple_plus;
+		purple_plus:nstate=(R_time_out<8'd254)?purple_plus:purple_minus;
+		purple_minus:nstate=(R_time_out>8'd1)?purple_minus:red_plus;
 		default:nstate=s_reset;
 		end
 	endcase
