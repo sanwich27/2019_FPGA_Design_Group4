@@ -18,60 +18,16 @@ module PWM_Decoder (
   end
   always@(*)begin
 	case(cstate)
-		s_reset:begin
-			nstate=red;
-			R_time_out = 8'd0;
-			G_time_out = 8'd0;
-			B_time_out = 8'd0;
-		end
-		red:begin
-			nstate=orange;
-			R_time_out = 8'd255;
-			G_time_out = 8'd0;
-			B_time_out = 8'd0;
-		end
-		orange:begin
-			nstate=yellow;
-			R_time_out = 8'd255;
-			G_time_out = 8'd60;
-			B_time_out = 8'd0;
-		end
-		yellow:begin
-			nstate=green;
-			R_time_out = 8'd255;
-			G_time_out = 8'd255;
-			B_time_out = 8'd0;
-		end
-		green:begin
-			nstate=blue;
-			R_time_out = 8'd0;
-			G_time_out = 8'd255;
-			B_time_out = 8'd0;
-		end
-		blue:begin
-			nstate=indigo;
-			R_time_out = 8'd0;
-			G_time_out = 8'd0;
-			B_time_out = 8'd255;
-		end
-		indigo:begin
-			nstate=purple;
-			R_time_out = 8'd8;
-			G_time_out = 8'd46;
-			B_time_out = 8'd84;
-		end
-		purple:begin
-			nstate=red;
-			R_time_out = 8'd160;
-			G_time_out = 8'd32;
-			B_time_out = 8'd240;
-		end
-		default:begin
-			nstate=s_reset;
-			R_time_out = 8'd0;
-			G_time_out = 8'd0;
-			B_time_out = 8'd0;
-		end
+		s_reset:nstate=red;
+		red:nstate=orange;
+		orange:nstate=yellow;
+		yellow:nstate=green;
+		green:nstate=blue;
+		blue:nstate=indigo;
+		indigo:nstate=purple;
+		purple:nstate=red;
+		default:nstate=s_reset;
+
 	endcase
   end
 	always@(posedge clk_div)begin
