@@ -1,7 +1,7 @@
 module  led_pwm(
   input  clk,
   input  rst,
-  output reg [7:0] led_out
+  output reg [7:0] led_out//pwm for led.v
 );
 reg [1:0] cstate;
 reg [1:0] nstate;
