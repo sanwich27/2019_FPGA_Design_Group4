@@ -74,7 +74,55 @@ module PWM_Decoder (
 		end
 	endcase
   end
-  
+	always@(posedge clk_div)begin
+	case(cstate)
+		s_reset:begin
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd0;
+		end
+		red:begin
+			R_time_out <= 8'd255;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd0;
+		end
+		orange:begin
+			R_time_out <= 8'd255;
+			G_time_out <= 8'd60;
+			B_time_out <= 8'd0;
+		end
+		yellow:begin
+			R_time_out <= 8'd255;
+			G_time_out <= 8'd255;
+			B_time_out <= 8'd0;
+		end
+		green:begin
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd255;
+			B_time_out <= 8'd0;
+		end
+		blue:begin
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd255;
+		end
+		indigo:begin
+			R_time_out <= 8'd8;
+			G_time_out <= 8'd46;
+			B_time_out <= 8'd84;
+		end
+		purple:begin
+			R_time_out <= 8'd160;
+			G_time_out <= 8'd32;
+			B_time_out <= 8'd240;
+		end
+		default:begin
+			R_time_out <= 8'd0;
+			G_time_out <= 8'd0;
+			B_time_out <= 8'd0;
+		end
+	endcase
+  end
 
   always@(posedge clk or posedge rst) begin
     if (rst) begin
