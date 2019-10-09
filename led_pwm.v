@@ -18,8 +18,8 @@ always@(posedge clk_div or posedge rst)begin
 always@(*)begin
 	case(cstate)
 		s_reset:nstate=s_plus;
-		s_plus:nstate=(led_out==8'd255)?s_minus:s_plus;
-		s_minus:nstate=(led_out==8'd0)?s_plus:s_minus;
+		s_plus:nstate=(led_out<8'd254)?s_minus:s_plus;
+		s_minus:nstate=(led_out>8'd1)?s_plus:s_minus;
 		default:nstate=s_reset;
 	endcase
 end
