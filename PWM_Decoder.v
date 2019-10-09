@@ -5,8 +5,8 @@ module PWM_Decoder (
   output reg [7:0] G_time_out,
   output reg [7:0] B_time_out
 );
-  reg [3:0] cstate;
-  reg [3:0] nstate;
+  reg [2:0] cstate;
+  reg [2:0] nstate;
   reg [25:0] cnt;
   reg clk_div;
   parameter red=3'd0,orange=3'd1,yellow=3'd2,green=3'd3,blue=3'd4,indigo=3'd5,purple=3'd6,s_reset=3'd7;
