@@ -66,67 +66,67 @@ always@(posedge clk_div or posedge rst)begin
             s_reset:begin //change color
 		case(cstate_color)
                     reset:begin
-                        nstate_color=red;
+                        nstate_color<=red;
                         R_shift[7:0] <= 8'd0;
                         G_shift[7:0] <= 8'd0;
                         B_shift[7:0] <= 8'd0;
                     end
                     red:begin
-                        nstate_color=orange;
+                        nstate_color<=orange;
                         R_shift[7:0] <= 8'd255;
                         G_shift[7:0] <= 8'd0;
                         B_shift[7:0] <= 8'd0;
                     end
                     orange:begin
-                        nstate_color=yellow;
+                        nstate_color<=yellow;
                         R_shift[7:0] <= 8'd255;
                         G_shift[7:0] <= 8'd30;
                         B_shift[7:0] <= 8'd0;
                     end
                     yellow:begin
-                        nstate_color=green;
+                        nstate_color<=green;
                         R_shift[7:0] <= 8'd255;
                         G_shift[7:0] <= 8'd255;
                         B_shift[7:0] <= 8'd0;
                     end
                     green:begin
-                        nstate_color=blue;
+                        nstate_color<=blue;
                         R_shift[7:0] <= 8'd0;
                         G_shift[7:0] <= 8'd255;
                         B_shift[7:0] <= 8'd0;
                     end
                     blue:begin
-                        nstate_color=indigo;
+                        nstate_color<=indigo;
                         R_shift[7:0] <= 8'd0;
                         G_shift[7:0] <= 8'd0;
                         B_shift[7:0] <= 8'd255;
                     end
                     indigo:begin
-                        nstate_color=purple;
+                        nstate_color<=purple;
                         R_shift[7:0] <= 8'd0;
                         G_shift[7:0] <= 8'd90;
                         B_shift[7:0] <= 8'd180;
                     end
                     purple:begin
-                        nstate_color=red;
+                        nstate_color<=red;
                         R_shift[7:0] <= 8'd139;
                         G_shift[7:0] <= 8'd0;
                         B_shift[7:0] <= 8'd255;
                     end
                     default:begin
-                        nstate_color=reset;
+                        nstate_color<=reset;
                         R_shift[7:0] <= 8'd0;
                         G_shift[7:0] <= 8'd0;
                         B_shift[7:0] <= 8'd0;
                     end
 	           endcase       
 		end
-		s_sl:begin  //output [15:8]
+		s_sl:begin  //shift left
 		      R_shift<=(R_shift<<1);
 		      G_shift<=(G_shift<<1);
 		      B_shift<=(B_shift<<1);
 		end
-		s_sr:begin
+		s_sr:begin  //shift right
 		      R_shift<=(R_shift>>1);
 		      G_shift<=(G_shift>>1);
 		      B_shift<=(B_shift>>1);
