@@ -4,23 +4,28 @@ module top(
     output  R_out,G_out,B_out
     );
     
-    wire [7:0] R_temp,G_temp,B_temp;
+    wire [7:0] pwm_r;
+	wire [7:0] pwm_g;
+	wire [7:0] pwm_b;
     
-    led_pwm a(
-      .clk (clk),
-      .rst (rst),
-      .R_time_out(R_temp),
-      .G_time_out(G_temp),
-      .B_time_out(B_temp)
-      );
-    LED b(
+  PWM_Decoder a(
+		.clk (clk),
+		.rst (rst),
+		.R_time_out (pwm_r),
+		.G_time_out (pwm_g),
+		.B_time_out (pwm_b)
+);
+    RGB_LED b(
         .clk (clk),		
         .rst (rst),
-        .R_time_in(R_temp),
-        .G_time_in(G_temp),
-        .B_time_in(B_temp),
-        .R_out(R_out),
-        .G_out(G_out),
-        .B_out(B_out)
-        );
+		.R_time_in (pwm_r),
+		.G_time_in (pwm_g),
+		.B_time_in (pwm_b),
+		.R_out (R_out),
+		.G_out (G_out),
+		.B_out (B_out)
+);
+    
+    
+    
 endmodule
