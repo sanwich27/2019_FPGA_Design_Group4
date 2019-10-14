@@ -59,14 +59,14 @@ Homework 2
 
 > 色碼:{255,0,0}
 
-<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_bonus_liu/image/shift.png"></img>
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_bonus/image/shift.png"></img>
 
 * pwm值漸弱則改為右移
 
 > p.s. 因為色碼之間需要維持比例，所以用左移和右移來增加減少pwm值，以免顏色跑掉，而不用加減法，所以呼吸燈的強度變化比較不平滑!
 
 ## Finite State Machine
-![bonus_fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_bonus_liu/image/bonus_fsm.png?raw=true)
+![bonus_fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw02_bonus/image/bonus_fsm.png?raw=true)
 
 ## 實現結果
  * [影片](https://youtu.be/9rb8f1onZSs)
