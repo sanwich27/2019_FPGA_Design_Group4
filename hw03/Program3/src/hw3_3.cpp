@@ -22,7 +22,7 @@ int main()
 		{
 			if(number[i]<0)
 			{
-				cout<<"the number must be positive!,please input again!"<<endl;
+				cout<<"the number must be non-negative!please input again!"<<endl;
 				cout<<"input"<<i+1<<":";
 				continue;
 			}
@@ -65,7 +65,6 @@ int main()
 	system("pause");
 	return 0;
  }
-
 
 
 
