@@ -14,7 +14,7 @@ XGpio R_Gpio, G_Gpio, B_Gpio;
 int main() {
 	int R_Status, G_Status, B_Status;
 	u32 R_out = 0x00, G_out = 0x00, B_out = 0x00;
-	int change_color=0;
+	int change_color=0; //record which color is now
 
 	/* Initialize the GPIO driver */
 	R_Status = XGpio_Initialize(&R_Gpio, R_DEVICE_ID);
@@ -151,7 +151,7 @@ int main() {
 				break;
 			}
 			change_color++;
-			if(change_color==7) {change_color=0;} //when purple light is overm, continue to red light
+			if(change_color==7) {change_color=0;} //when purple light is over, continue to red light
 
 		}
 
