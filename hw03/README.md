@@ -14,10 +14,11 @@ Homework 3
 使用 PS 端控制一顆 RGB LED ，使其依序產生彩虹七色。
 
 **block design:**
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program1/images/block%20design.JPG?raw=true)
 
 其中R、G、B 都是一個bit的output
 
-**測試步驟**
+**測試步驟:**
 
 1. 解壓縮hw03RGB.7z以後，從資料夾hw03RGB裡開啟vivado專案
 2. 左上角 file -> launch SDK
@@ -25,7 +26,7 @@ Homework 3
 > 若sdk打開後沒有東西，請從左上角file -> open projects from file system -> directory -> 直接選hw03RGB整個資料夾，就可以找到sdk專案了
 
 **模擬結果**
-[影片]()
+[影片](https://youtu.be/RtJd2VR8HjE)
 ### Program 2 - Hash Function
 
 **作業說明 :** 將組內每個人的學號透過 Hash Function 計算後 Print 在 Terminal 上。
