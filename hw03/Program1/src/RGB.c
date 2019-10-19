@@ -32,7 +32,8 @@ int main() {
 
 	while (1) { //keep doing
 
-			xil_printf("change_color = %d\r\n", change_color);
+			xil_printf("change_color = %d\r\n", change_color); //print which color is now (it's not required though)
+		
 			switch(change_color){
 			case 0:
 				for (int Delay = 0; Delay < LED_DELAY; Delay++)//just like a while loop, to keep the light continuous
@@ -147,7 +148,7 @@ int main() {
 				}
 				break;
 			default:
-				xil_printf(" bbbb= %d\r\n", change_color);
+				xil_printf(" bbbb= %d\r\n", change_color); 
 				break;
 			}
 			change_color++;
