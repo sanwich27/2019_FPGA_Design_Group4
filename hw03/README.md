@@ -1,8 +1,6 @@
 Homework 3
 ====
 
-# 繳交時間
-
 ### Question 1.
 
 請問在不改動任何設定下，ZYNQ CPU 儲存資料的方式是 big-endian 還是 little-endian?
@@ -25,8 +23,8 @@ Homework 3
 3. 在sdk上方工具列 run -> run configurations -> run
 > 若sdk打開後沒有東西，請從左上角file -> open projects from file system -> directory -> 直接選hw03RGB整個資料夾，就可以找到sdk專案了
 
-**模擬結果**
-[影片](https://youtu.be/RtJd2VR8HjE)
+**模擬結果:**
+ * [影片](https://youtu.be/RtJd2VR8HjE)
 ### Program 2 - Hash Function
 
 **作業說明 :** 將組內每個人的學號透過 Hash Function 計算後 Print 在 Terminal 上。
