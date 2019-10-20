@@ -53,18 +53,18 @@ Example:
 
 **Bubble sort
 
-<img src=""></img>
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program3/images/bubble%20sort.PNG"></img>
 
-## 模擬結果
+**模擬結果**
 
-### 初始介面
-
-### 輸入第一個input後...
-
-### 當輸入負數時...
-
-### 輸入20個數字後...
-
+***初始介面***
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program3/images/1.PNG"></img>
+***輸入第一個input後...***
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program3/images/2.PNG"></img>
+***當輸入負數時...***
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program3/images/non-negative.PNG"></img>
+***輸入20個數字後...***
+<img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program3/images/4.PNG"></img>
 
 ### Next Lab Preview
 
