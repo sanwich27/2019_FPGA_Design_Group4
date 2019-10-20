@@ -8,7 +8,7 @@ int main()
 	///declare/////
 	vector<int>number;//original data
 	vector<int>temp;//use for bubble sort
-	vector<int>sort;//after sorting
+	vector<int>sort;//the data after sorting
 
 
 	number.resize(20);//set the capacity of vector
@@ -20,7 +20,7 @@ int main()
 		cout<<"input"<<i+1<<":";
 		while(cin>>number[i])//input the values
 		{
-			if(number[i]<0)
+			if(number[i]<0)//illegal input
 			{
 				cout<<"the number must be non-negative!please input again!"<<endl;
 				cout<<"input"<<i+1<<":";
@@ -31,7 +31,7 @@ int main()
 		}
 
 
-		cout<<"the number you just input: "<<number[i]<<endl;
+		cout<<"the number you just input: "<<number[i]<<endl;//output the number you just input
 	}
 
 	temp=number;
