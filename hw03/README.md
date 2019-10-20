@@ -7,12 +7,18 @@ Homework 3
 ### Question 1.
 
 請問在不改動任何設定下，ZYNQ CPU 儲存資料的方式是 big-endian 還是 little-endian?
+
 由網路上找到的程式方法，我們可以推知是little-endian
+
 原理:
 將最高位的位元組放在最低的記憶體位置的為big-endian，而我們透過程式，將一個16bit的數字1234取一個byte看結果，結果我們取到了較後面的34
+
 可以證明我們由較低記憶體位址先取得了較低位的位元組，和big-endian定義正好相反，故我們推測ZYNQ CPU 儲存資料的方式是little-endian。
+
 模擬結果圖:
+
 ![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/%E7%B5%90%E6%9E%9C.JPG?raw=true)
+
 參考網址:
 https://chuck42315.wordpress.com/2011/10/30/little-endian-vs-big-endian/
 https://blog.gtwang.org/programming/difference-between-big-endian-and-little-endian-implementation-in-c/
