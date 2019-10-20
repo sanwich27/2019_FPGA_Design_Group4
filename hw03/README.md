@@ -54,6 +54,7 @@ Homework 3
 
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program3/images/bubble%20sort.PNG"></img>
  
+> 圖中只有5筆資料，所以只需要進行5輪比較，而作業有20筆資料，故需要進行20輪比較
 
 ## 模擬結果
 
