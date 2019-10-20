@@ -54,8 +54,7 @@ Example:
 ## Bubble sort
 
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program3/images/bubble%20sort.PNG"></img>
-
-* 
+ 
 
 ## 模擬結果
 
