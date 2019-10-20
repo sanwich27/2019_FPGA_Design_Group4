@@ -1,6 +1,9 @@
 Homework 3
 ====
 
+## 成員
+李奕勳、劉旭祐、陳哲均
+
 ### Question 1.
 
 請問在不改動任何設定下，ZYNQ CPU 儲存資料的方式是 big-endian 還是 little-endian?
