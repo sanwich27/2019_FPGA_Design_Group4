@@ -38,10 +38,6 @@ Homework 3
 
 2. 需在作業說明檔中簡單描述你們選用的 Hash Function。
 
-Example:
-
-![Example](example.png)
-
 ### Program 3 - Sorting
 
 **作業說明 :** 使用鍵盤輸入 20 個非負整數後，將此數列從小排到大。
