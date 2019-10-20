@@ -37,6 +37,11 @@ Homework 3
 1. 透過 Switch 切換每個人的學號後，直接在 PuTTY 上顯示那組 Switch 對應到哪一組學號，並直接印出 Hash Value。
 
 2. 需在作業說明檔中簡單描述你們選用的 Hash Function。
+**block design:**
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program2/images/3-2P.jpg?raw=true)
+**模擬結果:**
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program2/images/3-2putty.jpg?raw=true)
+採用的Hash Function:學號的第3、第6、第9碼相加後mod31
 
 ### Program 3 - Sorting
 
