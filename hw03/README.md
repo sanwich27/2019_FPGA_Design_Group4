@@ -73,13 +73,4 @@ Example:
 ***輸入20個數字後...***
 <img src="https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program3/images/4.PNG"></img>
 
-### Next Lab Preview
 
-- [AXI](https://www.twblogs.net/a/5b8cb90d2b7177188334d3a7)
-- [BUS](https://zh.wikipedia.org/wiki/%E6%80%BB%E7%BA%BF)
-
-### References
-
-* [Endianness](https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E5%BA%8F)
-* [hash function 觀念和實務](https://hackmd.io/s/HJln3jU_e)
-* [Which hashing algorithm is best for uniqueness and speed?](https://softwareengineering.stackexchange.com/questions/49550/which-hashing-algorithm-is-best-for-uniqueness-and-speed)
