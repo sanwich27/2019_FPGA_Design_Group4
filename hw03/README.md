@@ -51,6 +51,16 @@ Example:
 
 3. 需在 README 上簡單註明/講解你們所使用的排序演算法。
 
+**Bubble sort
+
+<img src=""></img>
+
+**模擬結果
+***初始介面
+***輸入第一個input後...
+***當輸入負數時...
+***輸入20個數字後...
+
 ### Next Lab Preview
 
 - [AXI](https://www.twblogs.net/a/5b8cb90d2b7177188334d3a7)
