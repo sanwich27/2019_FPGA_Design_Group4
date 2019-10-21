@@ -3,7 +3,7 @@
 #include "xgpio.h"
 #include "xil_printf.h"
 
-#define R_DEVICE_ID  XPAR_GPIO_0_DEVICE_ID
+#define R_DEVICE_ID  XPAR_GPIO_0_DEVICE_ID //AXI
 #define G_DEVICE_ID  XPAR_GPIO_1_DEVICE_ID
 #define B_DEVICE_ID  XPAR_GPIO_2_DEVICE_ID
 
