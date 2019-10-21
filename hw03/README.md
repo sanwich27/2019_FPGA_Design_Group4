@@ -17,7 +17,7 @@ Homework 3
 
 模擬結果圖:
 
-![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/%E7%B5%90%E6%9E%9C.JPG?raw=true)
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw03/Program2/images/%E7%B5%90%E6%9E%9C.JPG?raw=true)
 
 參考網址:
 https://chuck42315.wordpress.com/2011/10/30/little-endian-vs-big-endian/
