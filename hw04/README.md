@@ -35,4 +35,4 @@ Homework 4
 * 在sort裡，仍然使用u32。input負數的話u32的第31個bit是1，所以會是一個很大的正數，一定大於15，所以只要判斷是否大於15即可
 * 在arithmetic裡，因為要判斷是否小於-128，所以使用int較為方便
 * 在parity generator裡，並不需要判斷input是否超出範圍，因為從-2^31~2^31-1(全範圍)都可以輸入，而輸入大於2^31-1的數字會表示成2^31-1、輸入小於-2^31的數字會表示成-2^31(要表示這些數需要更多bit)
-* hash(djb2)與PWM controller 同sort，仍然使用u32，只需判斷是否大於255即可 (hash現在是int，還沒改)
+* hash(djb2)與PWM controller 同sort，仍然使用u32，只需判斷是否大於255即可 
