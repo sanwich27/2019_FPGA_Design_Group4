@@ -214,7 +214,7 @@ int main()
 		}
 		else if(choose==4)
 		{
-			int hash_data;
+			u32 hash_data;
 			u32 hash_result;
 			printf("hash(djb2)\n");
 			printf("please input data(0~255):");
