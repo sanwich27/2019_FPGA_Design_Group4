@@ -8,6 +8,7 @@ Homework 4
 
 ### Program1 - sort :
 ![sort](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/sort/sort.PNG)
+
 用bubble sort來排序 依序找出最大、第二大.....到最小的，放入一個[31:0]的reg並輸出出來。
 
 輸入位元數最多可以到4位(0~15)、有8筆input
