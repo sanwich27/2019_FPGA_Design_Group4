@@ -151,8 +151,9 @@ always@(posedge clk)begin
                     data_pl[31:28]<=data[7];			
                 end
                 det:begin
-                    data_pl[15:0]<=$signed(data[0])*$signed(data[3])-$signed(data[1])*$signed(data[2]);
-                    data_pl[31:16]<=$signed(data[4])*$signed(data[7])-$signed(data[5])*$signed(data[6]);
+                    data_pl[7:0]<=$signed(data[0])*$signed(data[3])-$signed(data[1])*$signed(data[2]);
+                    data_pl[15:8]<=$signed(data[4])*$signed(data[7])-$signed(data[5])*$signed(data[6]);
+					data_pl[31:16]<=16'd0;
                 end
                 default:begin
                     data_pl<=data_pl;
