@@ -3,14 +3,15 @@
 	input 	[7:0]		address,//address input from ps
 	input   ready, //ready signal from ps
 	input   done, 	//result is ready to output to ps
+	input 	[5:0] write_done,
 	input 	[31:0]      result1,//return the value after processed from memory
 	input 	[31:0]      result2,//return the value after processed from memory
 	input 	[31:0]      result3,//return the value after processed from memory
 	input 	[31:0]      result4,//return the value after processed from memory
 	input 	[31:0]      result5,//return the value after processed from memory
-
+	output  wire  [5:0] write_done_out,
 	output 	wire [31:0]		data_ps,
-	output  wire [7:0]		  address_ps,
+	output  wire [7:0]		address_ps,
 	output  wire [31:0]     result_out1, //show the result on ps
 	output  wire [31:0]     result_out2, //show the result on ps
 	output  wire [31:0]     result_out3, //show the result on ps
@@ -32,6 +33,6 @@ assign result_out4=result4;
 assign result_out5=result5;
 assign cmd=(ready==1'd1)?3'd4:3'd0;
 assign pl_done=done;
-
+assign write_done_out=write_done;
 
 endmodule
