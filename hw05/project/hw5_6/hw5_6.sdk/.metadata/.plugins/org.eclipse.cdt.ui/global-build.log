@@ -1,0 +1,3948 @@
+13:56:08 **** Build of project hw5_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/memory_ctrl_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/memory_ctrl_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/memory_ctrl_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/memory_ctrl_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling memory_ctrl..."
+memory_ctrl_selftest.c: In function 'MEMORY_CTRL_Reg_SelfTest':
+memory_ctrl_selftest.c:52:60: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( MEMORY_CTRL_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                            ^~
+memory_ctrl_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+13:56:32 **** Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../hw5_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\vivado_project\hw5_6\hw5_6.sdk\hw5_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: hw5.elf] Error 1
+13:59:13 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+In file included from ../src/main.c:11:0:
+../src/main.c: In function 'write_data':
+../src/main.c:94:61: error: 'C' undeclared (first use in this function); did you mean '_C'?
+  MEMORY_CTRL_mWriteReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, C, 0x00000002);//write_enable=1,cmd_valid=1
+                                                             ^
+../../hw5_bsp/ps7_cortexa9_0/include/memory_ctrl.h:35:31: note: in definition of macro 'MEMORY_CTRL_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+../src/main.c:94:61: note: each undeclared identifier is reported only once for each function it appears in
+  MEMORY_CTRL_mWriteReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, C, 0x00000002);//write_enable=1,cmd_valid=1
+                                                             ^
+../../hw5_bsp/ps7_cortexa9_0/include/memory_ctrl.h:35:31: note: in definition of macro 'MEMORY_CTRL_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:59:33 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71772	   2580	  23328	  97680	  17d90	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:00:04 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71772	   2580	  23328	  97680	  17d90	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:01:48 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71772	   2580	  23328	  97680	  17d90	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:03:55 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:100:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%x",done);
+           ~^
+           %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71836	   2580	  23328	  97744	  17dd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:04:18 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:102:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%x",done);
+           ~^
+           %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71836	   2580	  23328	  97744	  17dd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:04:22 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:05:50 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:102:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%x",done);
+           ~^
+           %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71836	   2580	  23328	  97744	  17dd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:06:13 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:102:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%x",done);
+           ~^
+           %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71836	   2580	  23328	  97744	  17dd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:06:32 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:102:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%x",done);
+           ~^
+           %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71772	   2580	  23328	  97680	  17d90	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:07:00 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:10:07 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:97:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",done);
+          ~^
+          %lx
+../src/main.c:104:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%x",done);
+           ~^
+           %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71836	   2580	  23328	  97744	  17dd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:10:43 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:98:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",done);
+          ~^
+          %lx
+../src/main.c:105:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%x",done);
+           ~^
+           %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71836	   2580	  23328	  97744	  17dd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:11:59 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:98:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",done);
+          ~^
+          %lx
+../src/main.c:105:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("%x",done);
+           ~^
+           %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71836	   2580	  23328	  97744	  17dd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:12:25 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:75:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:78:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:81:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:84:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c: In function 'write_data':
+../src/main.c:98:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",done);
+          ~^
+          %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71772	   2580	  23328	  97680	  17d90	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:12:55 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:14:42 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:36:9: error: 'done' undeclared (first use in this function)
+  while(!done)
+         ^~~~
+../src/main.c:36:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:70:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:22:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:21:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+14:14:47 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:36:9: error: 'done' undeclared (first use in this function)
+  while(!done)
+         ^~~~
+../src/main.c:36:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:70:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:22:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:21:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+14:15:29 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:17:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'u32'
+  u32 result1;
+  ^~~
+../src/main.c:26:2: error: 'done' undeclared (first use in this function)
+  done=0;
+  ^~~~
+../src/main.c:26:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:68:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:71:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:23:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:22:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+14:15:40 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:68:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:71:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:23:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:22:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71708	   2580	  23328	  97616	  17d50	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:15:45 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:17:43 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:68:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:71:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:23:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:22:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c: In function 'write_data':
+../src/main.c:85:14: error: 'done' undeclared (first use in this function)
+  printf("%x",done);
+              ^~~~
+../src/main.c:85:14: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+14:17:53 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:68:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:71:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:23:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:22:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c: In function 'write_data':
+../src/main.c:85:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",ans);
+          ~^
+          %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71772	   2580	  23328	  97680	  17d90	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:20:49 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:68:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:71:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:23:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:22:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c: In function 'write_data':
+../src/main.c:85:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",ans);
+          ~^
+          %lx
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71772	   2580	  23328	  97680	  17d90	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:22:01 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:68:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:71:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:23:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:22:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71708	   2580	  23328	  97616	  17d50	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:22:04 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:22:55 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:23:46 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:54:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:57:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:60:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:63:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:66:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:23:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:22:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71516	   2580	  23328	  97424	  17c90	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:23:50 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:24:59 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:52:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:55:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:23:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:22:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71508	   2580	  23328	  97416	  17c88	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:25:03 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:27:12 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:57:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:60:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:63:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:66:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:69:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:28:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:27:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:26:6: warning: unused variable 'det' [-Wunused-variable]
+  u32 det;
+      ^~~
+../src/main.c:25:6: warning: unused variable 'tr' [-Wunused-variable]
+  u32 tr;
+      ^~
+../src/main.c:24:6: warning: unused variable 'sub' [-Wunused-variable]
+  u32 sub;
+      ^~~
+../src/main.c:23:6: warning: unused variable 'add' [-Wunused-variable]
+  u32 add;
+      ^~~
+../src/main.c:22:6: warning: unused variable 'mul' [-Wunused-variable]
+  u32 mul;
+      ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71508	   2580	  23328	  97416	  17c88	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:29:46 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:75: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+  mul=result1&0x000000f+((result1&0x00000f00)>>1)+((result1&0x000f0000)>>2)+((result1&0x0f000000)>>3);
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",mul);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:70:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:28:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:27:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:26:6: warning: unused variable 'det' [-Wunused-variable]
+  u32 det;
+      ^~~
+../src/main.c:25:6: warning: unused variable 'tr' [-Wunused-variable]
+  u32 tr;
+      ^~
+../src/main.c:24:6: warning: unused variable 'sub' [-Wunused-variable]
+  u32 sub;
+      ^~~
+../src/main.c:23:6: warning: unused variable 'add' [-Wunused-variable]
+  u32 add;
+      ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71572	   2580	  23328	  97480	  17cc8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:29:50 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:34:15 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:75: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+  mul=result1&0x000000f+((result1&0x00000f00)>>1)+((result1&0x000f0000)>>2)+((result1&0x0f000000)>>3);
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:70:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:28:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:27:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:26:6: warning: unused variable 'det' [-Wunused-variable]
+  u32 det;
+      ^~~
+../src/main.c:25:6: warning: unused variable 'tr' [-Wunused-variable]
+  u32 tr;
+      ^~
+../src/main.c:24:6: warning: unused variable 'sub' [-Wunused-variable]
+  u32 sub;
+      ^~~
+../src/main.c:23:6: warning: unused variable 'add' [-Wunused-variable]
+  u32 add;
+      ^~~
+../src/main.c:22:6: warning: variable 'mul' set but not used [-Wunused-but-set-variable]
+  u32 mul;
+      ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71572	   2580	  23328	  97480	  17cc8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:34:19 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:34:52 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:41:01 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:75: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+  mul=result1&0x000000f+((result1&0x00000f00)>>1)+((result1&0x000f0000)>>2)+((result1&0x0f000000)>>3);
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:70:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:28:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:27:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:26:6: warning: unused variable 'det' [-Wunused-variable]
+  u32 det;
+      ^~~
+../src/main.c:25:6: warning: unused variable 'tr' [-Wunused-variable]
+  u32 tr;
+      ^~
+../src/main.c:24:6: warning: unused variable 'sub' [-Wunused-variable]
+  u32 sub;
+      ^~~
+../src/main.c:23:6: warning: unused variable 'add' [-Wunused-variable]
+  u32 add;
+      ^~~
+../src/main.c:22:6: warning: variable 'mul' set but not used [-Wunused-but-set-variable]
+  u32 mul;
+      ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71572	   2580	  23328	  97480	  17cc8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:41:29 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:75: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+  mul=result1&0x000000f+((result1&0x00000f00)>>1)+((result1&0x000f0000)>>2)+((result1&0x0f000000)>>3);
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:70:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:28:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:27:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:26:6: warning: unused variable 'det' [-Wunused-variable]
+  u32 det;
+      ^~~
+../src/main.c:25:6: warning: unused variable 'tr' [-Wunused-variable]
+  u32 tr;
+      ^~
+../src/main.c:24:6: warning: unused variable 'sub' [-Wunused-variable]
+  u32 sub;
+      ^~~
+../src/main.c:23:6: warning: unused variable 'add' [-Wunused-variable]
+  u32 add;
+      ^~~
+../src/main.c:22:6: warning: variable 'mul' set but not used [-Wunused-but-set-variable]
+  u32 mul;
+      ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71572	   2580	  23328	  97480	  17cc8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:41:33 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:42:21 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:75: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+  mul=result1&0x000000f+((result1&0x00000f00)>>1)+((result1&0x000f0000)>>2)+((result1&0x0f000000)>>3);
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:28:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:27:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:26:6: warning: unused variable 'det' [-Wunused-variable]
+  u32 det;
+      ^~~
+../src/main.c:25:6: warning: unused variable 'tr' [-Wunused-variable]
+  u32 tr;
+      ^~
+../src/main.c:24:6: warning: unused variable 'sub' [-Wunused-variable]
+  u32 sub;
+      ^~~
+../src/main.c:23:6: warning: unused variable 'add' [-Wunused-variable]
+  u32 add;
+      ^~~
+../src/main.c:22:6: warning: variable 'mul' set but not used [-Wunused-but-set-variable]
+  u32 mul;
+      ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71572	   2580	  23328	  97480	  17cc8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:42:24 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:44:51 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:75: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+  mul=result1&0x000000f+((result1&0x00000f00)>>1)+((result1&0x000f0000)>>2)+((result1&0x0f000000)>>3);
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:28:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:27:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:26:6: warning: unused variable 'det' [-Wunused-variable]
+  u32 det;
+      ^~~
+../src/main.c:25:6: warning: unused variable 'tr' [-Wunused-variable]
+  u32 tr;
+      ^~
+../src/main.c:24:6: warning: unused variable 'sub' [-Wunused-variable]
+  u32 sub;
+      ^~~
+../src/main.c:23:6: warning: unused variable 'add' [-Wunused-variable]
+  u32 add;
+      ^~~
+../src/main.c:22:6: warning: variable 'mul' set but not used [-Wunused-but-set-variable]
+  u32 mul;
+      ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71572	   2580	  23328	  97480	  17cc8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:44:54 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:52:19 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+../src/main.c:22:15: warning: unused variable 'a4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+               ^~
+../src/main.c:22:12: warning: unused variable 'a3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+            ^~
+../src/main.c:22:9: warning: unused variable 'a2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+         ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71588	   2580	  23328	  97496	  17cd8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:52:26 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:52:49 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:53:07 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+../src/main.c:22:15: warning: unused variable 'a4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+               ^~
+../src/main.c:22:12: warning: unused variable 'a3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+            ^~
+../src/main.c:22:9: warning: unused variable 'a2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+         ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71580	   2580	  23328	  97488	  17cd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:53:08 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:53:36 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+../src/main.c:22:15: warning: unused variable 'a4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+               ^~
+../src/main.c:22:12: warning: unused variable 'a3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+            ^~
+../src/main.c:22:9: warning: unused variable 'a2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+         ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71580	   2580	  23328	  97488	  17cd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:53:38 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:54:05 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:70:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",a1);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+../src/main.c:22:15: warning: unused variable 'a4' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+               ^~
+../src/main.c:22:12: warning: unused variable 'a3' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+            ^~
+../src/main.c:22:9: warning: unused variable 'a2' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+         ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71580	   2580	  23328	  97488	  17cd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:54:07 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:54:21 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:70:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",a1);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+../src/main.c:22:15: warning: unused variable 'a4' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+               ^~
+../src/main.c:22:12: warning: unused variable 'a3' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+            ^~
+../src/main.c:22:9: warning: unused variable 'a2' [-Wunused-variable]
+  u32 a1,a2,a3,a4,b1,b2,b3,b4;
+         ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71580	   2580	  23328	  97488	  17cd0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:54:45 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:55:13 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+../src/main.c:22:15: warning: unused variable 'a4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+               ^~
+../src/main.c:22:12: warning: unused variable 'a3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+            ^~
+../src/main.c:22:9: warning: unused variable 'a2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+         ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71588	   2580	  23328	  97496	  17cd8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+14:55:17 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:56:41 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+../src/main.c:22:15: warning: variable 'a4' set but not used [-Wunused-but-set-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+               ^~
+../src/main.c:22:12: warning: variable 'a3' set but not used [-Wunused-but-set-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+            ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71660	   2580	  23328	  97568	  17d20	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:03:38 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71724	   2580	  23328	  97632	  17d60	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:03:40 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:06:46 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71732	   2580	  23328	  97640	  17d68	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:07:30 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71860	   2580	  23328	  97768	  17de8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:07:32 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:10:02 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71860	   2580	  23328	  97768	  17de8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:10:04 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:10:51 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:81:2: error: expected ';' before 'a1'
+  a1=(result2&0xf0000000)>>28;
+  ^~
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+15:10:55 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71860	   2580	  23328	  97768	  17de8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:11:03 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:11:41 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71924	   2580	  23328	  97832	  17e28	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:11:44 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:12:07 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:12:27 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71924	   2580	  23328	  97832	  17e28	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:12:31 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71860	   2580	  23328	  97768	  17de8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:14:00 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72060	   2580	  23328	  97968	  17eb0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:14:03 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:19:01 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72124	   2580	  23328	  98032	  17ef0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:19:15 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:59:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:62:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:65:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72124	   2580	  23328	  98032	  17ef0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:19:27 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:20:39 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:54:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:57:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:60:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:63:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:66:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72124	   2580	  23328	  98032	  17ef0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:20:48 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:54:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:57:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:60:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:63:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:66:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72124	   2580	  23328	  98032	  17ef0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:21:50 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:23:00 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: error: 'data_in' undeclared (first use in this function)
+  data_in=0x21431233//input range:-4~3
+  ^~~~~~~
+../src/main.c:28:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:29:2: error: expected ';' before 'write_data'
+  write_data(0x000000ff,data_in);//input data
+  ^~~~~~~~~~
+../src/main.c:54:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:57:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:60:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:63:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:66:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+15:23:06 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: error: 'data_in' undeclared (first use in this function)
+  data_in=0x21431233;//input range:-4~3
+  ^~~~~~~
+../src/main.c:28:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:54:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:57:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:60:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:63:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:66:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:24:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:23:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:22:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:22:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:22:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+15:23:19 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:55:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:23:27: warning: unused variable 'b4' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:23:24: warning: unused variable 'b3' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:23:21: warning: unused variable 'b2' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:23:18: warning: unused variable 'b1' [-Wunused-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72124	   2580	  23328	  98032	  17ef0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:25:21 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:55:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:23:27: warning: variable 'b4' set but not used [-Wunused-but-set-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                           ^~
+../src/main.c:23:24: warning: variable 'b3' set but not used [-Wunused-but-set-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                        ^~
+../src/main.c:23:21: warning: variable 'b2' set but not used [-Wunused-but-set-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                     ^~
+../src/main.c:23:18: warning: variable 'b1' set but not used [-Wunused-but-set-variable]
+  int a1,a2,a3,a4,b1,b2,b3,b4;
+                  ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72380	   2580	  23328	  98288	  17ff0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:25:51 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:55:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result1);
+          ~^
+          %lx
+../src/main.c:58:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result2);
+          ~^
+          %lx
+../src/main.c:61:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result3);
+          ~^
+          %lx
+../src/main.c:64:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result4);
+          ~^
+          %lx
+../src/main.c:67:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("%x",result5);
+          ~^
+          %lx
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72444	   2580	  23328	  98352	  18030	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:28:35 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72532	   2580	  23328	  98440	  18088	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:28:51 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72548	   2580	  23328	  98456	  18098	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:28:59 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72564	   2580	  23328	  98472	  180a8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:29:06 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72564	   2580	  23328	  98472	  180a8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:29:34 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72580	   2580	  23328	  98488	  180b8	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:30:05 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:152:2: error: expected ';' before 'printf'
+  printf("%d",b1);
+  ^~~~~~
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+15:30:08 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72604	   2580	  23328	  98512	  180d0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:30:14 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72604	   2580	  23328	  98512	  180d0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:30:18 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72620	   2580	  23328	  98528	  180e0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:30:19 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:31:08 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72620	   2580	  23328	  98528	  180e0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:32:35 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+../src/main.c:22:6: warning: variable 'result5' set but not used [-Wunused-but-set-variable]
+  u32 result5;
+      ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72684	   2580	  23328	  98592	  18120	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:32:38 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:36:31 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:167:2: error: expected ';' before 'a1'
+  a1=result5&0x000000ff;
+  ^~
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+15:36:38 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72892	   2580	  23328	  98800	  181f0	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:37:21 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:37:32 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:37:34 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:38:01 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:39:14 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:39:15 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:39:43 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:40:32 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:40:39 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:40:47 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:40:55 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:42:22 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:42:25 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:53:31 **** Auto Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:6: warning: unused variable 'temp2' [-Wunused-variable]
+  u32 temp2;
+      ^~~~~
+../src/main.c:24:6: warning: unused variable 'temp1' [-Wunused-variable]
+  u32 temp1;
+      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: hw5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw5_bsp/ps7_cortexa9_0/lib -o "hw5.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw5.elf  |tee "hw5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72924	   2580	  23328	  98832	  18210	hw5.elf
+'Finished building: hw5.elf.size'
+' '
+15:53:44 **** Incremental Build of configuration Debug for project hw5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

@@ -1,0 +1,95 @@
+/*
+ * main.c
+ *
+ *  Created on: 2019年11月28日
+ *      Author: 李奕勳
+ */
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "memory_ctrl.h"
+void write_data(u32 address,u32 data);
+u32 read_data(u32 address);
+int main()
+{
+	int done;
+	u32 result1;
+	u32 result2;
+	u32 result3;
+	u32 result4;
+	u32 result5;
+	u32 temp1;
+	u32 temp2;
+	printf("program starts\n");
+
+	done=0;
+	MEMORY_CTRL_mWriteReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, 8,0x00000000);//data not ready
+	printf("GG\n");
+	write_data(0x000000ff,0x12341001);//input data
+	write_data(0x00000001,0x00000000);//instruction
+	write_data(0x00000002,0x00000001);//instruction
+	write_data(0x00000003,0x00000002);//instruction
+	write_data(0x00000004,0x00000003);//instruction
+	write_data(0x00000005,0x00000004);//instruction
+	MEMORY_CTRL_mWriteReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, 8, 0x00000001); //data ready
+
+	while(!done)
+	{
+		u32 done_pl;
+		u32 ans;
+		done_pl=read_data(0x0000000C);
+		ans=done_pl&0x80000000;
+		if(ans==0x80000000)
+		{
+			done=1;
+		}
+	}
+	result1=read_data(0x00000000);
+	result2=read_data(0x00000004)&0xffff0000;
+	result3=read_data(0x00000004)&0x0000ffff;
+	result4=read_data(0x00000008);
+	result5=read_data(0x0000000C)&0x0000ffff;
+	printf("result1:");
+	printf("%x",result1);
+	printf("\n");
+	printf("result2:");
+	printf("%x",result2);
+	printf("\n");
+	printf("result3:");
+	printf("%x",result3);
+	printf("\n");
+	printf("result4:");
+	printf("%x",result4);
+	printf("\n");
+	printf("result5:");
+	printf("%x",result5);
+	printf("\n");
+
+	printf(
+			"program ends");
+}
+void write_data(u32 address,u32 data)
+{
+	u32 ans;
+	MEMORY_CTRL_mWriteReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, 0x00000000, data);
+	MEMORY_CTRL_mWriteReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, 0x00000004, address);
+
+	MEMORY_CTRL_mWriteReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, 0x0000000C, 0x00000003);//write_enable=1,cmd_valid=1
+	MEMORY_CTRL_mWriteReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, 0x0000000C, 0x00000001);//write_enable=1,cmd_valid=0
+	ans=0x00000000;
+	while(ans!=0x40000000)
+	{
+
+		ans=MEMORY_CTRL_mReadReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, 0x0000000C);
+
+	}
+}
+
+u32 read_data(u32 address)
+{
+	u32 ans;
+	ans=MEMORY_CTRL_mReadReg(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR, address);
+	return ans;
+}
+
