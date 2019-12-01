@@ -15,7 +15,7 @@ mem.v會收到cmd這個值，來控制記憶體的讀取或寫入
 
 ## 3.memory_ctrl.v
 
-memory_ctrl.v是一個axi的ip，接受sdk的資料的地址，放進slave register
+memory_ctrl.v是一個axi的ip，接受ps端的資料的地址，放進slv_reg裡，讓pl端做運算，以及將pl端運算完的資料藉由reg_data_out傳回ps端
 
 ## block design
 
