@@ -4,8 +4,6 @@ Homework 5
 ## 成員
 李奕勳、劉旭祐、陳哲均
 
-## 模擬結果圖:
-
 ### Program - 矩陣運算的處理器 :
 ## 1.calculator.v
 
@@ -22,6 +20,6 @@ memory_ctrl.v是一個axi的ip，接受sdk的資料的地址，放進slave regis
 ## block design
 
 ![blockdesign](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw05/images/block%20design.PNG?raw=true)
-## result
+## 模擬結果圖
 
 ![result](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw05/images/result.PNG?raw=true)
