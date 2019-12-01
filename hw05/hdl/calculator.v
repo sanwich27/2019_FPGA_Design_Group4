@@ -1,28 +1,27 @@
 module calculator(
 	input clk,
 	input rst,
-	input [31:0] data_in,
+	input [31:0] data_in,//input data stored in memory(from ps)
 	input ready, //data is ready from ps
-	output reg [31:0] data_pl,
-	output reg [7:0] address_pl,
-	output reg [31:0] data_to_ps1,
-	output reg [31:0] data_to_ps2,
-	output reg [31:0] data_to_ps3,
-	output reg [31:0] data_to_ps4,
-	output reg [31:0] data_to_ps5,
-	output reg [2:0] cmd, //command to memory
-	output reg done_pl
+	output reg [31:0] data_pl,//output data after processing
+	output reg [7:0] address_pl,//memory address for storing output data
+	output reg [31:0] data_to_ps1,//output data to ps (mul)
+	output reg [31:0] data_to_ps2,//output data to ps (add)
+	output reg [31:0] data_to_ps3,//output data to ps (sub)
+	output reg [31:0] data_to_ps4,//output data to ps (tr)
+	output reg [31:0] data_to_ps5,//output data to ps (det)
+	output reg [2:0] cmd, //command to memory 
+	output reg done_pl //done_pl=1 :finish processing ,output data is ready to be stored in memory
 );
 
 integer i;
-integer counter;
+integer counter; 
 reg [7:0] ps;//indicate which instruction is being processed
 reg [7:0] result_addr;//stored the address of result (from mem[6]~mem[10])
-reg done_read_pl;
 reg [3:0] cstate,nstate;
 parameter s_reset=3'd0,read_ps=3'd1,read_instr=3'd2,calculate=3'd3,write_pl=3'd4,read_pl=3'd5,result_output=3'd6,done=3'd7;
 parameter mul=3'd0,add=3'd1,sub=3'd2,tr=3'd3,det=3'd4;
-reg [3:0] data [7:0]; 
+reg [3:0] data [7:0]; //data[0]=data_in[3:0],data[1]=data_in[7:4]......
 reg [2:0] instruction;
 always@(posedge clk)begin
 	if(rst==0)begin
@@ -35,13 +34,13 @@ end
 
 always@(*)begin
 	case(cstate)
-		s_reset:nstate=(ready==1'd1)?read_ps:s_reset;
-		read_ps:nstate=(counter==3)?read_instr:read_ps;
-		read_instr:nstate=(counter==6)?calculate:read_instr;
+		s_reset:nstate=(ready==1'd1)?read_ps:s_reset; 
+		read_ps:nstate=(counter==3)?read_instr:read_ps;//counter==3 :hold for reading data from memory
+		read_instr:nstate=(counter==6)?calculate:read_instr;//counter==6 :hold for reading data from memory
 		calculate:nstate=write_pl;
-		write_pl:nstate=(ps==8'd6)?read_pl:read_instr;
-		read_pl:nstate=(counter==3)?result_output:read_pl;
-		result_output:nstate=(result_addr==8'd10)?done:read_pl;
+		write_pl:nstate=(ps==8'd6)?read_pl:read_instr; //last instruction stored in mem[5]
+		read_pl:nstate=(counter==3)?result_output:read_pl; //counter==3 :hold for reading data from memory
+		result_output:nstate=(result_addr==8'd10)?done:read_pl; //last output data will be stored in mem[10]
 		done:nstate=done;
 		default:;
 	endcase
@@ -60,8 +59,8 @@ always@(posedge clk)begin
             data_to_ps5<=32'd0;
             instruction<=3'd0;
             counter<=0; 
-            ps<=8'd1;     
-            result_addr<=8'd6;      
+            ps<=8'd1; //instruction stored in mem[1]~mem[5]    
+            result_addr<=8'd6; //output data will be sotred in mem[6]~mem[10]     
             for(i=0;i<8;i=i+1)begin
                 data[i]<=4'd0;
             end
@@ -70,7 +69,7 @@ always@(posedge clk)begin
         read_ps:begin
             data_pl<=32'd0;//not used
             address_pl<=8'd255;//data from ps stored in mem[255]
-            cmd<=3'd3;//read ps data
+            cmd<=3'd3;//read data from memory (data<=mem[address_pl])
             data_to_ps1<=data_to_ps1;
             data_to_ps2<=data_to_ps2;
             data_to_ps3<=data_to_ps3;
@@ -88,7 +87,7 @@ always@(posedge clk)begin
         read_instr:begin
             data_pl<=32'd0;//not used
             address_pl<=ps;//instruction from ps stored in mem[1]
-            cmd<=3'd3;
+            cmd<=3'd3; //read data from memory (data<=mem[address_pl])
             data_to_ps1<=data_to_ps1;
             data_to_ps2<=data_to_ps2;
             data_to_ps3<=data_to_ps3;
@@ -105,7 +104,7 @@ always@(posedge clk)begin
         end
         calculate:begin
             address_pl<=8'd0;//not used
-            cmd<=3'd4;
+            cmd<=3'd4; //idle
             data_to_ps1<=data_to_ps1;
             data_to_ps2<=data_to_ps2;
             data_to_ps3<=data_to_ps3;
@@ -113,7 +112,7 @@ always@(posedge clk)begin
             data_to_ps5<=data_to_ps5;
             instruction<=instruction;
             counter<=counter;
-            ps<=ps+8'd1;
+            ps<=ps+8'd1; //move to next instruction
             result_addr<=result_addr;
             for(i=0;i<8;i=i+1)begin
                 data[i]<=data[i];
@@ -163,7 +162,7 @@ always@(posedge clk)begin
         write_pl:begin
             data_pl<=data_pl;//not used
             address_pl<=ps+8'd4;//result after processed stored in mem[3]
-            cmd<=3'd2;//write pl data to mem
+            cmd<=3'd2;//write pl data to mem (mem[address_pl]<=data)
             data_to_ps1<=data_to_ps1;
             data_to_ps2<=data_to_ps2;
             data_to_ps3<=data_to_ps3;
@@ -180,8 +179,8 @@ always@(posedge clk)begin
         end
         read_pl:begin
             data_pl<=data_pl;//not used
-            address_pl<=result_addr;//result after processed stored in mem[3]
-            cmd<=3'd3;//write pl data to mem
+            address_pl<=result_addr;//result after processed stored in mem[6]~mem[10]
+            cmd<=3'd3;//read data from memory (data<=mem[address_pl])
             data_to_ps1<=data_to_ps1;
             data_to_ps2<=data_to_ps2;
             data_to_ps3<=data_to_ps3;
