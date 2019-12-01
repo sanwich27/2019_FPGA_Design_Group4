@@ -11,8 +11,7 @@ Homework 5
 
 ## 2.mem.v
 
-mem.v會收到cmd這個值，來控制記憶體的讀取或寫入
-而cmd又分為cmd_ps和cmd_pl，來決定目前是ps端還是pl端在存取memery
+mem.v會收到cmd這個值，來控制記憶體的讀取或寫入，而cmd又分為cmd_ps和cmd_pl，來決定目前是ps端還是pl端在存取memery
 
 ## 3.memory_ctrl.v
 
