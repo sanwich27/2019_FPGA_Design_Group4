@@ -10,6 +10,8 @@ Homework 5
 在reset後，開始從memory中讀取data和instruction，接著calculate並把值寫回memory裡，再把值讀出來並藉由memory_ctrl.v 傳回ps端上
 
 ![finite state machine](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw05/images/fm.jpg?raw=true)
+
+
 ## 2.mem.v
 
 mem.v會收到cmd這個值，來控制記憶體的讀取或寫入，而cmd又分為cmd_ps和cmd_pl，來決定目前是ps端還是pl端在存取memory
