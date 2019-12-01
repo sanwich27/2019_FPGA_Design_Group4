@@ -18,4 +18,4 @@ mem.v會收到cmd這個值，來控制記憶體的讀取或寫入
 3.memory_ctrl.v
 
 memory_ctrl.v是一個axi的ip，接受sdk的資料的地址，放進slave register
-![sort](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw05/images/block%20design.PNG?raw=true)
+(https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw05/images/block%20design.PNG?raw=true)
