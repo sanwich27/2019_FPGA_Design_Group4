@@ -7,7 +7,7 @@ Homework 5
 ### Program - 矩陣運算的處理器 :
 ## 1.calculator.v
 
-在reset後，開始從memory中讀取data和instruction，接著calculate並把值寫回memory裡，最後再把值讀出來傳送到ps端
+在reset後，開始從memory中讀取data和instruction，接著calculate並把值寫回memory裡，最後再把值讀出來以傳送到ps端
 
 ## 2.mem.v
 
