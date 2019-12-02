@@ -13,7 +13,9 @@ Homework 5
 ![finite state machine](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw05/images/fm.jpg?raw=true)
 
 > counter:讓讀取的時間長一點，確保讀取到正確的值
+
 > ps==8'd6:代表5個指令都執行完成
+
 > result_address==8'd10:代表運算完的結果都已經存回memory中
 
 ## 2.mem.v
