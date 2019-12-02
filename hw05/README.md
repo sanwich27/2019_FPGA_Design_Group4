@@ -16,7 +16,7 @@ Homework 5
 
 > ps==8'd6:代表5個指令都執行完成
 
-> result_address==8'd10:代表運算完的結果都已經存回memory中
+> result_addr==8'd10:代表運算完的結果都已經存回memory中
 
 ## 2.mem.v
 memory架構:256*32
