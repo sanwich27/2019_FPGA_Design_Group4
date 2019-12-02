@@ -4,6 +4,10 @@ Homework 5
 ## 成員
 李奕勳、劉旭祐、陳哲均
 
+## bitstream 檔
+
+路徑:project\hw5_6\hw5_6.sdk\design_1_wrapper_hw_platform_0
+
 ### Program - 矩陣運算的處理器 :
 ## 1.calculator.v
 
