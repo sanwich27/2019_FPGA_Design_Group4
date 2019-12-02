@@ -7,7 +7,7 @@ Homework 5
 ### Program - 矩陣運算的處理器 :
 ## 1.calculator.v
 
-在reset後，開始從memory中讀取data和instruction，接著calculate並把值寫回memory裡，再把值讀出來並藉由memory_ctrl.v 傳回ps端上
+在reset後，開始從memory中讀取data和instruction，接著calculate並把值寫回memory裡，再把值讀出來並藉由memory_ctrl.v傳回ps端上
 
 
 ![finite state machine](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw05/images/fm.jpg?raw=true)
@@ -17,7 +17,7 @@ Homework 5
 ## 2.mem.v
 memory架構:256*32
 
-mem.v會收到cmd這個值，來控制記憶體的讀取或寫入，而cmd又分為cmd_ps和cmd_pl，來決定目前是ps端還是pl端在存取memory，input data也分為data_ps和data_pl,分別代表ps端和pl端傳入的資料，address分成address_ps和address_pl，代表ps端和pl端想要對memory存取的地址。
+mem.v會收到cmd這個值，來控制記憶體的讀取或寫入，而cmd又分為cmd_ps和cmd_pl，來決定目前是ps端還是pl端在存取memory，input data也分為data_ps和data_pl，分別代表ps端和pl端傳入的資料，address分成address_ps和address_pl，代表ps端和pl端想要對memory存取的地址。
 
 ## 3.memory_ctrl.v
 
