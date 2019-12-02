@@ -15,8 +15,9 @@ Homework 5
 > counter:讓讀取的時間長一點，確保讀取到正確的值
 
 ## 2.mem.v
+memory架構:256*32
 
-mem.v會收到cmd這個值，來控制記憶體的讀取或寫入，而cmd又分為cmd_ps和cmd_pl，來決定目前是ps端還是pl端在存取memory
+mem.v會收到cmd這個值，來控制記憶體的讀取或寫入，而cmd又分為cmd_ps和cmd_pl，來決定目前是ps端還是pl端在存取memory，input data也分為data_ps和data_pl,分別代表ps端和pl端傳入的資料，address分成address_ps和address_pl，代表ps端和pl端想要對memory存取的地址。
 
 ## 3.memory_ctrl.v
 
