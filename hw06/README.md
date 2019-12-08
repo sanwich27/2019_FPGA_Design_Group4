@@ -26,6 +26,14 @@ Homework 6
 * input feature map (invalid case)
 ![2](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/input%20invalid.PNG)
 
+* input feature map (valid case)
+![3](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/input.PNG)
+
+* input filter and bias
+![4](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/input%20bias.PNG)
+
+* result 
+![5](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/result.PNG)
 
 
 ## BRAM中存放資料和指令的位置
