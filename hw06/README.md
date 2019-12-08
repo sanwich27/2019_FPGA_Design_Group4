@@ -16,7 +16,7 @@ Homework 6
 ## 3.controller.v
     負責ps端和pl端的資料傳輸，接收從ps端輸入的data,address，存入mem.v中，提供給processor.v做運算
 ## block design
-
+https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/block%20design.PNG
 
 ## 模擬結果圖
 
