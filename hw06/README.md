@@ -5,10 +5,16 @@ Homework 6
 李奕勳、劉旭祐、陳哲均
 
 ### Program - 2*2的卷積運算處理器 :
+
 ## 1.processor.v
+    接收從mem.v傳入的資料和指令，進行捲積運算，運算存回mem.v中
 
+## 2.mem.v
+    大小:32*256
+    和hw05的mem.v架構相同，可以分別接收來自ps端和pl端的資料和指令
 
-
+## 3.controller.v
+   負責ps端和pl端的資料傳輸，接收從ps端輸入的data,address，存入mem.v中，提供給processor.v做運算
 ## block design
 
 
