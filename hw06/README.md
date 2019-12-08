@@ -21,7 +21,7 @@ Homework 6
 ## 模擬結果圖
 
 * input feature map
-!(https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/block%20design.PNG)
+![1](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/block%20design.PNG)
 
 
 
