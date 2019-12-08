@@ -14,7 +14,7 @@ Homework 6
     和hw05的mem.v架構相同，可以分別接收來自ps端和pl端的資料和指令
 
 ## 3.controller.v
-   負責ps端和pl端的資料傳輸，接收從ps端輸入的data,address，存入mem.v中，提供給processor.v做運算
+    負責ps端和pl端的資料傳輸，接收從ps端輸入的data,address，存入mem.v中，提供給processor.v做運算
 ## block design
 
 
