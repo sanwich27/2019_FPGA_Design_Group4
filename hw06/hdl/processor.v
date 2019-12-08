@@ -124,7 +124,7 @@ always@(posedge clk)begin
         end
         write_pl:begin
             data_pl<=data_pl;//not used
-            address_pl<=8'd1;//result after processed stored in mem[3]
+            address_pl<=8'd1;//result after processed stored in mem[1]
             cmd<=3'd2;//write pl data to mem
             data_to_ps<=data_to_ps;
             instruction<=instruction;//not used
@@ -137,7 +137,7 @@ always@(posedge clk)begin
         end
         result_output:begin
             data_pl<=data_pl;//not used
-            address_pl<=8'd1;//result after processed stored in mem[3]
+            address_pl<=8'd1;//result after processed stored in mem[1]
             cmd<=3'd3;//write pl data to mem
             data_to_ps<=data_in;
             instruction<=instruction;//not used
