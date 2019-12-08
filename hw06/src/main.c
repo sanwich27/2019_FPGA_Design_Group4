@@ -150,7 +150,7 @@ int main()
 	data_in=(data1<<12)+(data2<<8)+(data3<<4)+data4+(filter1<<28)+(filter2<<24)+(filter3<<20)+(filter4<<16);
 	//data_in=0x21431233;//input range:0~3
 	////////////////////////////input bias//////////////////////
-	printf("input bias:(0~10)");
+	printf("input bias(0~10):");
 	while(scanf("%d",&bias))
 		{
 			if(bias<0||bias>10)//invalid input
@@ -209,15 +209,8 @@ int main()
 	printf("-----------------after processing-----------------\n");
 	////////////////////////////////////////////////////////////////////////////////////////////
 	printf("output pixel:\n");
-	a1=(result&0xff000000)>>24;
-	a2=(result&0x00ff0000)>>16;
-	a3=(result&0x0000ff00)>>8;
-	a4=(result&0x000000ff);
-	printf("%d",a1);
-	printf("  %d",a2 );
-	printf("\n");
-	printf("%d",a3);
-	printf("  %d",a4);
+	printf("%d",result);
+
 	printf("\n\n");
 	printf("program ends");
 }

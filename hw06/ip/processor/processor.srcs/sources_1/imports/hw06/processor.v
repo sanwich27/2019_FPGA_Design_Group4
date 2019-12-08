@@ -108,18 +108,11 @@ always@(posedge clk)begin
                 data[i]<=data[i];
             end
 			if(instruction==1'd1)begin
-                data_pl[7:0]<=$signed(data[0])*$signed(data[4])+$signed(data[1])*$signed(data[6])+$signed(bias[7:0]);
-                data_pl[15:8]<=$signed(data[0])*$signed(data[5])+$signed(data[1])*$signed(data[7])+$signed(bias[7:0]);
-                data_pl[23:16]<=$signed(data[2])*$signed(data[4])+$signed(data[3])*$signed(data[6])+$signed(bias[7:0]);
-                data_pl[31:24]<=$signed(data[2])*$signed(data[5])+$signed(data[3])*$signed(data[7])+$signed(bias[7:0]);	
+                data_pl<=data[0]*data[4]+data[1]*data[5]+data[2]*data[6]+data[3]*data[7]+bias[7:0];	
 			end
 			else begin	//used for debug
-                data_pl[7:0]<=8'd255;
-                data_pl[15:8]<=8'd255;
-                data_pl[23:16]<=8'd255;
-                data_pl[31:24]<=8'd255;	
+                data_pl<=32'd255;	
 			end
-           
             done_pl<=1'd0;
         end
         write_pl:begin

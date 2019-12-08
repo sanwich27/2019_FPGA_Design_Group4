@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
 -- Date        : Sat Dec  7 16:28:16 2019
 -- Host        : LAPTOP-INFBF1OT running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/vivado_project/hw06/hw06.srcs/sources_1/bd/design_1/ip/design_1_controller_0_0/design_1_controller_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_controller_0_0 -prefix
+--               design_1_controller_0_0_ design_1_controller_0_0_sim_netlist.vhdl
 -- Design      : design_1_controller_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -33,8 +33,6 @@ entity design_1_controller_0_0_controller is
     cmd_done : out STD_LOGIC;
     cmd : out STD_LOGIC_VECTOR ( 2 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_controller_0_0_controller : entity is "controller";
 end design_1_controller_0_0_controller;
 
 architecture STRUCTURE of design_1_controller_0_0_controller is
@@ -218,8 +216,6 @@ entity design_1_controller_0_0_controller_v1_0_S00_AXI is
     s00_axi_bready : in STD_LOGIC;
     s00_axi_rready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_controller_0_0_controller_v1_0_S00_AXI : entity is "controller_v1_0_S00_AXI";
 end design_1_controller_0_0_controller_v1_0_S00_AXI;
 
 architecture STRUCTURE of design_1_controller_0_0_controller_v1_0_S00_AXI is
@@ -1889,8 +1885,6 @@ entity design_1_controller_0_0_controller_v1_0 is
   attribute C_S00_AXI_ADDR_WIDTH of design_1_controller_0_0_controller_v1_0 : entity is 4;
   attribute C_S00_AXI_DATA_WIDTH : integer;
   attribute C_S00_AXI_DATA_WIDTH of design_1_controller_0_0_controller_v1_0 : entity is 32;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_controller_0_0_controller_v1_0 : entity is "controller_v1_0";
 end design_1_controller_0_0_controller_v1_0;
 
 architecture STRUCTURE of design_1_controller_0_0_controller_v1_0 is

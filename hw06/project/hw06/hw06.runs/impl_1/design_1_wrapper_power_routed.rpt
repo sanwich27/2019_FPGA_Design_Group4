@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Sat Dec  7 17:32:03 2019
+| Date             : Sun Dec  8 20:56:38 2019
 | Host             : LAPTOP-INFBF1OT running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.156        |
+| Total On-Chip Power (W)  | 2.153        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.001        |
+| Dynamic (W)              | 1.998        |
 | Device Static (W)        | 0.155        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 60.1         |
-| Junction Temperature (C) | 49.9         |
+| Max Ambient (C)          | 60.2         |
+| Junction Temperature (C) | 49.8         |
 | Confidence Level         | Medium       |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,18 +52,18 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.109 |        3 |       --- |             --- |
-| Slice Logic             |     0.303 |    60412 |       --- |             --- |
-|   LUT as Logic          |     0.291 |    41922 |     53200 |           78.80 |
-|   Register              |     0.009 |     9064 |    106400 |            8.52 |
+| Clocks                  |     0.110 |        3 |       --- |             --- |
+| Slice Logic             |     0.305 |    60261 |       --- |             --- |
+|   LUT as Logic          |     0.294 |    41835 |     53200 |           78.64 |
+|   Register              |     0.008 |     9046 |    106400 |            8.50 |
 |   F7/F8 Muxes           |     0.003 |     2496 |     53200 |            4.69 |
-|   CARRY4                |    <0.001 |       38 |     13300 |            0.29 |
+|   CARRY4                |    <0.001 |       28 |     13300 |            0.21 |
 |   LUT as Shift Register |    <0.001 |       60 |     17400 |            0.34 |
 |   Others                |     0.000 |      191 |       --- |             --- |
-| Signals                 |     0.333 |    46821 |       --- |             --- |
+| Signals                 |     0.327 |    46719 |       --- |             --- |
 | PS7                     |     1.256 |        1 |       --- |             --- |
 | Static Power            |     0.155 |          |           |                 |
-| Total                   |     2.156 |          |           |                 |
+| Total                   |     2.153 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,7 +73,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.764 |       0.745 |      0.018 |
+| Vccint    |       1.000 |     0.761 |       0.742 |      0.018 |
 | Vccaux    |       1.800 |     0.017 |       0.000 |      0.017 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -149,16 +149,16 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     2.001 |
-|   design_1_i             |     2.001 |
-|     controller_0         |     0.012 |
-|       inst               |     0.012 |
-|     mem_0                |     0.722 |
-|       inst               |     0.722 |
+| design_1_wrapper         |     1.998 |
+|   design_1_i             |     1.998 |
+|     controller_0         |     0.011 |
+|       inst               |     0.011 |
+|     mem_0                |     0.720 |
+|       inst               |     0.720 |
 |     processing_system7_0 |     1.257 |
 |       inst               |     1.257 |
-|     processor_0          |     0.003 |
-|       inst               |     0.003 |
+|     processor_0          |     0.002 |
+|       inst               |     0.002 |
 |     ps7_0_axi_periph     |     0.007 |
 |       s00_couplers       |     0.007 |
 +--------------------------+-----------+
