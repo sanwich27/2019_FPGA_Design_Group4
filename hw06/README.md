@@ -19,6 +19,8 @@ Homework 6
 ![block design](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/block%20design.PNG)
 
 ## 模擬結果圖
+* input format
+![0](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/input%20format.png)
 
 * program starts
 ![1](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw06/images/program%20start.PNG)
