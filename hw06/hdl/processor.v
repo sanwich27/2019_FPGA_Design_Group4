@@ -70,8 +70,8 @@ always@(posedge clk)begin
             bias<=bias;
             done_pl<=1'd0;
         end
-		read_bias:begin
-			data_pl<=32'd0;//not used
+	read_bias:begin
+            data_pl<=32'd0;//not used
             address_pl<=8'd254;//data from ps stored in mem[254]
             cmd<=3'd3;//read ps data
             data_to_ps<=data_to_ps;
@@ -82,8 +82,7 @@ always@(posedge clk)begin
             end
             bias<=data_in;
             done_pl<=1'd0;
-
-		end
+	end
         read_instr:begin
             data_pl<=32'd0;//not used
             address_pl<=8'd253;//instruction from ps stored in mem[253]
