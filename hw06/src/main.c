@@ -41,7 +41,7 @@ int main()
 	}
 	printf("%d",data1);
 	printf("\n");
-	printf("input data2:(0~7):");
+	printf("input data2(0~7):");
 	while(scanf("%d",&data2))
 	{
 		if(data2<0||data2>7)//invalid input
@@ -56,7 +56,7 @@ int main()
 
 	printf("%d",data2);
 	printf("\n");
-	printf("input data3:(0~7):");
+	printf("input data3(0~7):");
 	while(scanf("%d",&data3))
 	{
 		if(data3<0||data3>7)//invalid input
@@ -71,7 +71,7 @@ int main()
 
 	printf("%d",data3);
 	printf("\n");
-	printf("input data4:(0~7):");
+	printf("input data4(0~7):");
 	while(scanf("%d",&data4))
 	{
 		if(data4<0||data4>7)//invalid input
@@ -88,7 +88,7 @@ int main()
 	printf("\n");
 	////////////////////////////////////////////////////////////////////////
 	//////////////////////////////input filter////////////////////////////////
-	printf("input filter1:(0~7):");
+	printf("input filter1(0~7):");
 	while(scanf("%d",&filter1))
 	{
 		if(filter1<0||filter1>7)//invalid input
@@ -102,7 +102,7 @@ int main()
 	}
 	printf("%d",filter1);
 	printf("\n");
-	printf("input filter2:(0~7):");
+	printf("input filter2(0~7):");
 	while(scanf("%d",&filter2))
 	{
 		if(filter2<0||filter2>7)//invalid input
@@ -117,7 +117,7 @@ int main()
 
 	printf("%d",filter2);
 	printf("\n");
-	printf("input filter3:(0~7):");
+	printf("input filter3(0~7):");
 	while(scanf("%d",&filter3))
 	{
 		if(filter3<0||filter3>7)//invalid input
@@ -132,7 +132,7 @@ int main()
 
 	printf("%d",filter3);
 	printf("\n");
-	printf("input filter4:(0~7):");
+	printf("input filter4(0~7):");
 	while(scanf("%d",&filter4))
 	{
 		if(filter4<0||filter4>7)//invalid input
