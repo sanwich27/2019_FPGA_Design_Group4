@@ -54,7 +54,7 @@ always@(posedge clk)begin
             for(i=0;i<8;i=i+1)begin
                 data[i]<=4'd0;
             end
-			bias<=8'd0;
+            bias<=8'd0;
             done_pl<=1'd0;
         end
         read_ps:begin
@@ -67,7 +67,7 @@ always@(posedge clk)begin
             for(i=0;i<8;i=i+1)begin
                 data[i]<=data_in[4*i+:4];
             end
-			bias<=bias;
+            bias<=bias;
             done_pl<=1'd0;
         end
 		read_bias:begin
@@ -80,7 +80,7 @@ always@(posedge clk)begin
             for(i=0;i<8;i=i+1)begin
                 data[i]<=data[i];
             end
-			bias<=data_in;
+            bias<=data_in;
             done_pl<=1'd0;
 
 		end
@@ -94,7 +94,7 @@ always@(posedge clk)begin
             for(i=0;i<8;i=i+1)begin
                 data[i]<=data[i];
             end
-			bias<=bias;
+            bias<=bias;
             done_pl<=1'd0;
         end
         calculate:begin
@@ -103,16 +103,16 @@ always@(posedge clk)begin
             data_to_ps<=data_to_ps;
             instruction<=instruction;
             counter<=counter;
-			bias<=bias;
+            bias<=bias;
             for(i=0;i<8;i=i+1)begin
                 data[i]<=data[i];
             end
-			if(instruction==1'd1)begin
+            if(instruction==1'd1)begin
                 data_pl<=data[0]*data[4]+data[1]*data[5]+data[2]*data[6]+data[3]*data[7]+bias[7:0];	
-			end
-			else begin	//used for debug
+            end
+            else begin	//used for debug
                 data_pl<=32'd255;	
-			end
+            end
             done_pl<=1'd0;
         end
         write_pl:begin
@@ -125,7 +125,7 @@ always@(posedge clk)begin
             for(i=0;i<8;i=i+1)begin
                 data[i]<=data[i];
             end 
-			bias<=bias;
+            bias<=bias;
             done_pl<=1'd0;		
         end
         result_output:begin
@@ -138,7 +138,7 @@ always@(posedge clk)begin
             for(i=0;i<8;i=i+1)begin
                 data[i]<=data[i];
             end 
-			bias<=bias;
+            bias<=bias;
             done_pl<=1'd0;
         end
         done:begin
@@ -151,7 +151,7 @@ always@(posedge clk)begin
             for(i=0;i<8;i=i+1)begin
                 data[i]<=data[i];
             end
-			bias<=bias;
+            bias<=bias;
             done_pl<=1'd1;
         end
         endcase
