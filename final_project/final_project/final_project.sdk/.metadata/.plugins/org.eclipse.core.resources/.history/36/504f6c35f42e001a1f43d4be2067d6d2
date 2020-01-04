@@ -1,0 +1,121 @@
+/*
+ * main.c
+ *
+ *  Created on: 2020¦~1¤ë2¤é
+ *      Author: user
+ */
+
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "AES_encrypt.h"
+#include "AES_decrypt.h"
+
+int main()
+{
+
+	u32 plaintext_2[16]={0}; //2bit
+	u32 plaintext_8[4];		 //8bit
+	u32 key_2[16];			 //2bit
+	u32 key_8[4];			 //8bit
+	u32 ready=0;
+	u32 cipher1,cipher2,cipher3,cipher4;
+	u32 a1,a2,a3,a4;
+
+	printf("Program Start.\n");
+	while(1){
+	printf("Please input plaintext(128 bits,divided into 16 blocks\n");
+	printf(",while each block represents 1 byte=2 hexidecimal bits) \n");
+	printf("->input 2 hexidecimal bit at a time (you can only use number 0~9 or letter a~f ) \n");
+	for(int i=0;i<16;i++){
+		printf("p");
+		printf("%d", i);
+		printf(":");
+		while(scanf("%x", &plaintext_2[i]))
+		{
+			if(plaintext_2[i]>255)
+			{
+				printf("input is out of range ,please input again ! (00~ff)\n");
+			}
+			else break;
+		}
+		printf("%x\r\n", plaintext_2[i]);
+	}
+	for(int i=0;i<4;i++)
+	{
+		plaintext_8[i]=(plaintext_2[4*i]<<24)+(plaintext_2[4*i+1]<<16)+(plaintext_2[4*i+2]<<8)+(plaintext_2[4*i+3]);
+	}
+	printf("Please input initial key(128 bits,divided into 16 blocks\n");
+	printf(",while each block represents 1 byte=2 hexidecimal bits) \n");
+	printf("->input 2 hexidecimal bit at a time (you can only use number 0~9 or letter a~f ) \n");
+	for(int i=0;i<16;i++){
+			printf("k");
+			printf("%d", i);
+			printf(":");
+			while(scanf("%x", &key_2[i]))
+			{
+				if(key_2[i]>255)
+				{
+					printf("input is out of range ,please input again ! (00~ff)\n");
+				}
+				else break;
+			}
+			printf("%x\r\n", key_2[i]);
+	}
+		for(int i=0;i<4;i++)
+		{
+			key_8[i]=(key_2[4*i]<<24)+(key_2[4*i+1]<<16)+(key_2[4*i+2]<<8)+(key_2[4*i+3]);
+		}
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 0, 0); //rst=0
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 4, plaintext_8[0]);
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 8, plaintext_8[1]);
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 12, plaintext_8[2]);
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 16, plaintext_8[3]);
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 20, key_8[0]);
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 24, key_8[1]);
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 28, key_8[2]);
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 32, key_8[3]);
+	for(int i=0;i<10;i++); // a little delay
+	AES_ENCRYPT_mWriteReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR, 0, 1); //rst=1
+	ready=0;
+	while(ready!=1){
+		ready=AES_ENCRYPT_mReadReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR , 0);
+	}
+	cipher1=AES_ENCRYPT_mReadReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR , 4);
+	cipher2=AES_ENCRYPT_mReadReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR , 8);
+	cipher3=AES_ENCRYPT_mReadReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR , 12);
+	cipher4=AES_ENCRYPT_mReadReg(XPAR_AES_ENCRYPT_0_S00_AXI_BASEADDR , 16);
+	printf("cipher after encryption:\n");
+	printf("%08x", cipher1);
+	printf("%08x", cipher2);
+	printf("%08x", cipher3);
+	printf("%08x\n", cipher4);
+	//------------
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 0, 0); //rst=0
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 4, cipher1);
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 8, cipher2);
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 12,cipher3);
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 16,cipher4);
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 20, key_8[0]);
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 24, key_8[1]);
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 28, key_8[2]);
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 32, key_8[3]);
+		for(int i=0;i<10;i++); // a little delay
+		AES_DECRYPT_mWriteReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR, 0, 1); //rst=1
+		ready=0;
+		while(ready!=1){
+			ready=AES_DECRYPT_mReadReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR , 0);
+		}
+		a1=AES_DECRYPT_mReadReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR , 4);
+		a2=AES_DECRYPT_mReadReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR , 8);
+		a3=AES_DECRYPT_mReadReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR , 12);
+		a4=AES_DECRYPT_mReadReg(XPAR_AES_DECRYPT_0_S00_AXI_BASEADDR , 16);
+		printf("plaintext after decryption:\n");
+		printf("%08x", a1);
+		printf("%0x", a2);
+		printf("%0x", a3);
+		printf("%x\n", a4);
+	}
+	return 0;
+}

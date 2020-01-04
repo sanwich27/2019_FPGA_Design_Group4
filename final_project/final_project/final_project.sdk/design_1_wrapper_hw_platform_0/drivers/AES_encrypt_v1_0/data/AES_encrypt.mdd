@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER AES_encrypt
+	OPTION supported_peripherals = (AES_encrypt);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = AES_encrypt;
+END DRIVER
