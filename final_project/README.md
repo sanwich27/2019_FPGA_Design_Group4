@@ -54,5 +54,5 @@ plaintext_8的_8代表了8bit(hexidecimal)，用來存取一整個直排的值(e
 
 
 #### 參考網站:
-https://blog.csdn.net/qq_28205153/article/details/55798628
+https://blog.csdn.net/qq_28205153/article/details/55798628  
 https://www.itread01.com/content/1541892089.html
