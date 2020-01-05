@@ -1,42 +1,53 @@
-Homework 4
+Final project
 ====
 
 ## 成員
 李奕勳、劉旭祐、陳哲均
 
-## 模擬結果圖:
+## block design
+![bd](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/block%20design.PNG)
+## 設計說明
 
-### Program1 - sort :
-![sort](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/sort/sort.PNG)
+### hdl
+加密為AES_encrypt.v，主要流程如下  
+![encrypt step](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/%E5%8A%A0%E5%AF%86%E6%B5%81%E7%A8%8B.jpg)  
+解密為AES_decrypt.v，主要流程如下  
+![decrypt step](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/%E8%A7%A3%E5%AF%86%E6%B5%81%E7%A8%8B.jpg)  
+上面只說明了主要步驟。因為使用同步電路，因此無法在同一個state裡的下一行使用上一行剛算好的值，因此將每一步所需的計算切成了許多小步驟  
+其他如計算roundkey、計算mixcolumms等小步驟請看下方finite state machine圖
+### finite state machine
+AES_encrypt.v  
+![encrypt fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/%E5%8A%A0%E5%AF%86FSM.png)  
+AES_decrypt.v  
+![decrypt fsm](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/%E8%A7%A3%E5%AF%86FSM.png)
 
-用bubble sort來排序 依序找出最大、第二大.....到最小的，放入一個[31:0]的reg並輸出出來。
-輸入位元數最多可以到4位(0~15)、有8筆input   
-輸出位元數為8個input加起來的長度---32位 (每4bit代表一個input)
+### IP
+* 為了讓加密、解密可以分別使用，兩個.v都建立為AXI IP  
+其中加密需要輸入的明文及密鑰皆為128bit(binary)，無法由單一的slave register接收，因此將明文及密鑰各切成四等分來傳入slave register  
+再加上rst，因此至少需要4(明文)+4(密鑰)+1(rst)=9個slave register，但為了預防萬一，在建IP時要了  
+16個slave gister，如下圖(游標處是16)  
+![slave register](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/%E5%BE%8C%E4%BE%86%E7%B5%A6%E4%BA%8616.PNG)  
+而解密與加密幾乎相同，只差在input data是密文，同樣在建IP時要了16個slave register  
+* 兩個IP在傳回sdk時同樣將結果分為四等分傳回    
 
-### Program2 - arithmetic :
-#### add:
-![add](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/arithmetic/add.PNG)
-#### subtract:
-![subtract](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/arithmetic/subtract.PNG)
-#### multiply:
-![multiply](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/arithmetic/multiply.PNG)
+## 模擬結果圖(putty):
+### 初始畫面:
+![initial](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/%E4%B8%80%E9%96%8B%E5%A7%8B.PNG)
+### 輸入明文(plaintext):
+![input plaintext](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/plaintext.PNG)
+### 輸入初始密鑰(initial key)及產生的結果:
+![key and result](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/key%20and%20result.PNG)
 
-### Program3 - parity generator :
-![parity generator](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/parity%20generator/parity.PNG)
-
-### Program4 - hash(djb2) :
-![hash(djb2)](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/hash(djb2)/hash.PNG)
-
-### Program5 - PWM controller :
-![PWM_controller_putty](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/PWM%20controller/pwm.PNG)
-![PWM_controller_result](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/hw04/images/PWM%20controller/pwm_result.jpg)
 
 
 ### main.c 說明:
-在driver的那些.c裡，資料型態一律使用u32，但是在main.c中為了判斷input是否超出範圍，有時必須使用有號的int來判斷。
-因為使用u32是無法判斷是否小於零的，sign bit是1的數字會是一個很大的正數
+1. plaintext_2 的_2代表了2bit(hexidecimal)，用來存取一個block的值  
+plaintext_8的_8代表了8bit(hexidecimal)，用來存取一整個直排的值(e.g. P0P1P2P3)，如下圖
+![plaintext block](https://github.com/sanwich27/2019_FPGA_Design_Group4/blob/master/final_project/images/plaintext%20block.PNG)  
+；key與plaintext做法相同
 
-* 在sort裡，仍然使用u32。input負數的話u32的第31個bit是1，所以會是一個很大的正數，一定大於15，所以只要判斷是否大於15即可
-* 在arithmetic裡，因為要判斷是否小於-128，所以使用int較為方便
-* 在parity generator裡，並不需要判斷input是否超出範圍，因為從-2^31~2^31-1(全範圍)都可以輸入，而輸入大於2^31-1的數字會表示成2^31-1、輸入小於-2^31的數字會表示成-2^31(要表示這些數需要更多bit)
-* hash(djb2)與PWM controller 同sort，仍然使用u32，只需判斷是否大於255即可 
+2. 因為使用了兩個AXI IP，
+因此在main.c 裡可以
+* 輸入明文及金鑰取得密文
+* 輸入密文及金鑰取得明文   
+>但目前main.c裡只有讓使用者使用加密的功能，隨後直接將密文及金鑰解密後印出明文
