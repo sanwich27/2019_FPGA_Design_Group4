@@ -55,7 +55,7 @@ plaintext_8的_8代表了8bit(hexidecimal)，用來存取一整個直排的值(e
 
 
 ### 可以改進的地方
-* 在做MixCloumns的時候，因為xtime()是很快的運算，不用花一個state去特別實作，再製成table(存到register裡)，這樣會增加運算時間，以及面積(用了很多register)
+* 在做MixCloumns的時候，因為xtime()是很快的運算，不用特別花一個state去實作，再製成table(存到register裡)，這樣會增加運算時間，以及面積(用了很多register)。
 
 * 計算round key的步驟應該和加密、解密的步驟分開，因為round key通常不會變動，而且需要保密起來，如果和加密和解密的運算放在一起，會導致不必要的運算(因為round key值固定)，而且失去安全性。
 
